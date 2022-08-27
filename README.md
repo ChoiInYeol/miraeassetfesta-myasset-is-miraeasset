@@ -68,3 +68,12 @@ ipykernel
 ### ESG 관련
 
 ### 개발 관련
+
+- #### Table Recognition
+
+  - [CascadeTabNet](https://github.com/DevashishPrasad/CascadeTabNet)
+
+- #### PDF OCR
+
+  - [PDFminer](https://github.com/pdfminer/pdfminer.six)
+  - [pdftotree](https://github.com/HazyResearch/pdftotree)
