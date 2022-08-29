@@ -1,0 +1,5 @@
+pandas
+numpy
+tabula
+pdf2docx
+docx2txt
