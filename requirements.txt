@@ -6,3 +6,6 @@ docx2txt
 PyPDF2
 PDFFileReader
 pdf
+konlpy
+nltk
+ipykernel
