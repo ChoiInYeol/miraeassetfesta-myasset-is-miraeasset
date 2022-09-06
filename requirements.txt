@@ -1,11 +1,17 @@
+#pip install -r requirements.txt
+
 pandas
 numpy
 tabula
 pdf2docx
 docx2txt
 PyPDF2
-PDFFileReader
+#PDFFileReader
 pdf
 konlpy
 nltk
 ipykernel
+virtualenv
+requests
+BeautifulSoup
+selenium
