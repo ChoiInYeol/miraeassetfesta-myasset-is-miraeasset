@@ -3,3 +3,6 @@ numpy
 tabula
 pdf2docx
 docx2txt
+PyPDF2
+PDFFileReader
+pdf
