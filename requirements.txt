@@ -16,3 +16,4 @@ requests
 BeautifulSoup
 selenium
 natsort
+seaborn
