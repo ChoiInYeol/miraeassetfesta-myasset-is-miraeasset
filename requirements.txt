@@ -6,14 +6,13 @@ tabula
 pdf2docx
 docx2txt
 PyPDF2
-#PDFFileReader
 pdf
 konlpy
 nltk
 ipykernel
 virtualenv
 requests
-BeautifulSoup
+BeautifulSoup4
 selenium
 natsort
 seaborn
