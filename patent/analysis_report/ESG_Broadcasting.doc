@@ -1,0 +1,370 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="application/vnd.word; charset=utf-8" />
+<title>보고서보기</title>
+<style>
+body { margin:0px; padding:10px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+</script>
+</head>
+<body  style="background:#fff;">
+	<div style="position:relative;">
+		<p class=MsoNormal align=center style='margin-left:.05pt;text-align:center'><a name="project_name"></a><span lang=EN-US style='font-size:20.0pt'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span style='font-size:20.0pt'>ESG/Broadcasting에 대한</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span style='font-size:20.0pt'>핵심 경쟁자 탐색</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><a name="project_date"></a><span lang=EN-US style='font-size:16.0pt;color:red'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US style='font-size:14.0pt'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US style='font-size:14.0pt'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US style='font-size:14.0pt'>&nbsp;</span></p>
+		<table width="544" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;" align="center">
+			<tr style="font-size:16px; padding-top:10px;">
+				<td align="center">					
+					본 분석 보고서는 한국과학기술정보연구원의 주요사업인 <br/>데이터 기반 지능형 미래기술 분석체제 구축(K-19-L03-C03-S01) <br/>수행의 일환으로 작성되었음. 
+				</td>
+			</tr>
+		</table>
+		<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US style='font-size:14.0pt'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US style='font-size:14.0pt'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US style='font-size:20.0pt'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span style='font-size:20.0pt'>한국과학기술정보연구원</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span style='font-size:20.0pt'>데이터분석본부 미래기술분석센터</span></p>
+	</div>
+	<div>
+		<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+			<tr><th  style="border:1px solid #666; background:#F0F0F0; padding:10px; font-size:18px; font-weight:bold;">목차</th></tr>
+			<tr>
+				<td style="border:1px solid #666; padding:10px 20px;">
+					<h1 style="font-size:16px"><a href="#">검색 조건</a></h1>
+					<h1 style="font-size:16px"><a href="#">1. 연도별 특허 수</a></h1>
+					<h1 style="font-size:16px"><a href="#">2. 출원인 국적별 분석</a></h1>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">2-1. 출원인 국적별 특허 수</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">2-2. 출원인 국적별 연도별 특허 수</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">2-3. 출원인 국적별 특허 활동도 지수 분석</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">2-4. 출원인 국적별 특허 이끌림 지수 분석</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">2-5. 출원인 국적별 특허 수준 분석</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">2-6. 출원인 국적별 평균 패밀리 크기</a></h2>
+					<h1 style="font-size:16px"><a href="#">3. 세계 경쟁자 분석</a></h1>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">3-1. 출원인별 특허 수</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">3-2. 출원인별 연도별 특허 수</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">3-3. 출원인 국적별 특허 활동도 지수 분석</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">3-4. 출원인 국적별 특허 이끌림 지수 분석</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">3-5. 출원인별 특허 수준 분석</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">3-6. 출원인별 평균 패밀리 크기</a></h2>
+					<h1 style="font-size:16px"><a href="#">4. 국내 경쟁자 분석</a></h1>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">4-1. 한국 특허 출원인별 특허 수</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">4-2. 한국 특허 출원인별 연도별 특허 수</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">4-3. 한국 특허 출원인별 특허 수준 분석</a></h2>
+					<h1 style="font-size:16px"><a href="#">5. 세계 핵심 경쟁자 리스트</a></h1>
+					<h1 style="font-size:16px"><a href="#">&lt;부록&gt; 고 피인용 특허</a></h1>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="height:50px;"></div>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>                                                                                                                                                           
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	 if(doc.offsetHeight != 0){
+	 	pageheight = doc.offsetHeight;
+	 	parent.document.getElementById("autoHeight0").height = Number(pageheight+40)+"px";
+	 }
+}
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<h2 style="font-weight:bold; font-size:17px; color:#333;">검색 조건</h2>
+		<p style="margin:0;  text-align:left;">본 분석에는 미국 특허 및 PATSTAT 데이터베이스를 사용하였으며, 해당 기술 분야의 특허 검색을 위한 검색식은 아래와 같음.</p>
+		
+			<p style="margin:0;  text-align:left; font-weight:bold;">
+				an:("CJ ENM CO., Ltd.") AND acn:KR AND text:("education" OR "female members" OR "envirionmental management promotion" OR "gas emissions" OR "human rights policy" OR "governance law" OR "dividend policy" OR "reuse" OR "recruit" OR "strategic social contribution" OR "social regulation" OR "raw material" OR "renewable energy" OR "environmental management" OR "human" OR "audit expertise" OR "industrial accident" OR "employees" OR "eco-certified" OR "supplier esg agreements" OR "material consumption" OR "recycled" OR "recycle" OR "reuse water" OR "esg agenda" OR "energy" OR "health" OR "waste" OR "CEO" OR "Board of Directors" OR "association" OR "member volunteer participation" OR "eco" OR "retain" OR "air pollutant" OR "air pollutant emissions" OR "pollutant" OR "female" OR "executive director" OR "social law" OR "environmental regulations" OR "protection" OR "privacy" OR "gender" OR "audit body" OR "esg support" OR "consumption" OR "member volunteer" OR "waste recycling" OR "full-time employees" OR "committess" OR "eco certified" OR "emissions" OR "partner esg management" OR "privacy infringement remedies" OR "disabled employment" OR "information" OR "waste discharge" OR "subsidiary material consumption" OR "water pollutant emissions" OR "disabled" OR "voluntary" OR "outside director" OR "training expenses" OR "greenhouse gas" OR "director expertise" OR "raw material consumption" OR "esg agreements" OR "voting system" OR "employee" OR "freedom" OR "outside directors" OR "social contribution" OR "BOD" OR "protection system" OR "greenhouse" OR "safety promotion" OR "remedies" OR "volunteer participation" OR "partner" OR "gender diversity" OR "renewable" OR "policy" OR "recycled raw materials" OR "female salary" OR "supplier esg" OR "esg management" OR "privacy infringement" OR "water" OR "shareholders" OR "governance" OR "water pollutant" OR "partner management" OR "audit" OR "health promotion" OR "safety" OR "environmental laws" OR "voluntary turnover" OR "water consumption" OR "greenhouse gas emissions" OR "BOD agenda" OR "subsidiary material" OR "volunteer" OR "chairman" OR "esg partners" OR "human rights risk" OR "new hires" OR "governance regulation" OR "information protection system" OR "social" OR "human rights" OR "information protection" OR "voting" OR "energy usage" OR "ethics" OR "esg" OR "accident" OR "recycled materials" OR "environmental" OR "director")</br>
+				검색 연도는 2020-2020으로 제한하였으며, 총 특허수는 1편임.
+			</p>
+		
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	 if(doc.offsetHeight != 0){
+	  pageheight = doc.offsetHeight;
+	  parent.document.getElementById("autoHeight1").height = Number(pageheight+40)+"px";
+	 }
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];
+		//연도별 특허 출원 그래프
+		M3_LineBarChart('LineBarChart1','특허수(전체)','특허수(기준국가)',itemList, "0000042733", "");
+	}
+});
+
+</script>
+</head>
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<!--2-1. 연도별 특허 수-->
+		<div class="doc_content">
+			<h2 style="padding:0px 0; font-weight:bold; font-size:17px; color:#333;">1. 연도별 특허 수</h2>
+				<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 1. 연도별 특허 수</p>
+				<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+					<tr>
+						<th width="25%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">연도</th>
+						<th width="25%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+						<th width="25%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">누적 특허 수</th>
+						<th width="25%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">Korea, Republic 특허 수</th>
+					</tr>
+
+					<tr>
+						<td style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0;">2020</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					</tr>
+	
+			
+				</table>
+				<div style="height:20px;"></div>
+				
+				
+				<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+				<tr >
+					<td rowspan="26" style = "text-align: center">
+						<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042733/LineBarChart1.png'></img>							
+					</td>
+				</tr>
+				</table>
+				<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+				<tr >
+					<td colspan = "2" style = "font-weight:bold; text-align :center">
+						그림 1. 연도별 특허 출원 추이<br />(전체 특허 수는 막대 그래프, 한국의 특허 수는 꺾은선 그래프 참조)
+					</td>
+				</tr>
+				</table>
+							
+				
+																							
+				<div style="height:20px;"></div>
+			
+	<table>
+
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight2").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];
+		//연도별 특허 출원 그래프
+		M3_RotateBarChart('RotateBarChart1','국가','특허수',itemList, "0000042733", "");
+	}
+});
+
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<!--2-1. 연도별 특허 수-->
+		<div class="doc_content">
+			<h2 style="padding:0px 0; font-weight:bold; font-size:17px; color:#333;">2. 출원인 국적별 분석 (특허권 보유 국가 분석)</h2>
+			<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">2-1. 출원인 국적별 특허 수</h3>
+			<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 2. 출원인 국적별 특허 수</p>
+			<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+				<tr>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">순위</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인 국적</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">비중 (%)</th>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">Korea, Republic</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">100</td>
+				</tr>
+
+			</table>
+			<div style="height:20px;"></div>
+			
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042733/RotateBarChart1.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 2. 출원인 국적별 특허 수
+				</td>
+			</tr>
+			</table>
+			
+
+			<div style="height:20px;"></div>
+		<table>
+
+			<tr>
+				<td valign="top">○ </td>
+				<td> 
+					 특허의 출원인 국적을 분석한 결과 Korea, Republic이(가) 전체 1건의 특허 중
+					 100%(1건)를 점유하여 가장 많은 특허를 발표한 것으로 나타났음.
+				</td>
+			</tr>
+
+
+	
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					Korea, Republic은(는) 1편 (100%)의 특허를 발표하여 1위를 차지하였음.
+				</td>
+			</tr>
+	
+		
+
+		</table>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underli

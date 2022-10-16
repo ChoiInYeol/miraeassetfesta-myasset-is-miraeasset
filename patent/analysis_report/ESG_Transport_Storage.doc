@@ -1,0 +1,2609 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="application/vnd.word; charset=utf-8" />
+<title>보고서보기</title>
+<style>
+body { margin:0px; padding:10px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+</script>
+</head>
+<body  style="background:#fff;">
+	<div style="position:relative;">
+		<p class=MsoNormal align=center style='margin-left:.05pt;text-align:center'><a name="project_name"></a><span lang=EN-US style='font-size:20.0pt'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span style='font-size:20.0pt'>ESG/Transport_Storage에 대한</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span style='font-size:20.0pt'>핵심 경쟁자 탐색</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><a name="project_date"></a><span lang=EN-US style='font-size:16.0pt;color:red'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US style='font-size:14.0pt'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US style='font-size:14.0pt'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US style='font-size:14.0pt'>&nbsp;</span></p>
+		<table width="544" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;" align="center">
+			<tr style="font-size:16px; padding-top:10px;">
+				<td align="center">					
+					본 분석 보고서는 한국과학기술정보연구원의 주요사업인 <br/>데이터 기반 지능형 미래기술 분석체제 구축(K-19-L03-C03-S01) <br/>수행의 일환으로 작성되었음. 
+				</td>
+			</tr>
+		</table>
+		<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US style='font-size:14.0pt'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US style='font-size:14.0pt'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US style='font-size:20.0pt'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span style='font-size:20.0pt'>한국과학기술정보연구원</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span style='font-size:20.0pt'>데이터분석본부 미래기술분석센터</span></p>
+	</div>
+	<div>
+		<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+			<tr><th  style="border:1px solid #666; background:#F0F0F0; padding:10px; font-size:18px; font-weight:bold;">목차</th></tr>
+			<tr>
+				<td style="border:1px solid #666; padding:10px 20px;">
+					<h1 style="font-size:16px"><a href="#">검색 조건</a></h1>
+					<h1 style="font-size:16px"><a href="#">1. 연도별 특허 수</a></h1>
+					<h1 style="font-size:16px"><a href="#">2. 출원인 국적별 분석</a></h1>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">2-1. 출원인 국적별 특허 수</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">2-2. 출원인 국적별 연도별 특허 수</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">2-3. 출원인 국적별 특허 활동도 지수 분석</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">2-4. 출원인 국적별 특허 이끌림 지수 분석</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">2-5. 출원인 국적별 특허 수준 분석</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">2-6. 출원인 국적별 평균 패밀리 크기</a></h2>
+					<h1 style="font-size:16px"><a href="#">3. 세계 경쟁자 분석</a></h1>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">3-1. 출원인별 특허 수</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">3-2. 출원인별 연도별 특허 수</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">3-3. 출원인 국적별 특허 활동도 지수 분석</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">3-4. 출원인 국적별 특허 이끌림 지수 분석</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">3-5. 출원인별 특허 수준 분석</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">3-6. 출원인별 평균 패밀리 크기</a></h2>
+					<h1 style="font-size:16px"><a href="#">4. 국내 경쟁자 분석</a></h1>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">4-1. 한국 특허 출원인별 특허 수</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">4-2. 한국 특허 출원인별 연도별 특허 수</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">4-3. 한국 특허 출원인별 특허 수준 분석</a></h2>
+					<h1 style="font-size:16px"><a href="#">5. 세계 핵심 경쟁자 리스트</a></h1>
+					<h1 style="font-size:16px"><a href="#">&lt;부록&gt; 고 피인용 특허</a></h1>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="height:50px;"></div>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>                                                                                                                                                           
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	 if(doc.offsetHeight != 0){
+	 	pageheight = doc.offsetHeight;
+	 	parent.document.getElementById("autoHeight0").height = Number(pageheight+40)+"px";
+	 }
+}
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<h2 style="font-weight:bold; font-size:17px; color:#333;">검색 조건</h2>
+		<p style="margin:0;  text-align:left;">본 분석에는 미국 특허 및 PATSTAT 데이터베이스를 사용하였으며, 해당 기술 분야의 특허 검색을 위한 검색식은 아래와 같음.</p>
+		
+			<p style="margin:0;  text-align:left; font-weight:bold;">
+				an:("HYUNDAIGLOVIS Co.,LTD" OR "PanOcean" OR "Asiana Airlines" OR "KoreaLine" OR "JEJUAIR, CO., LTD." OR "JIN AIR" OR "HeungaShipping" OR "HanjinTransportation" OR "AirBusan" OR "KSS LINE" OR "SEBANG" OR "DongbangTransport&Logistics" OR "KoreaAirportService" OR "Hansol Logistics" OR "ChunilExpress" OR "KUKBO" OR "INTERGIS" OR "DONGYANG EXPRESS CORP." OR "HMM" OR "KoreanAirLines" OR "HANJINKAL" OR "CJ LOGISTICS" OR "TWAYAIR" OR "KCTC" OR "HanExpress") AND acn:KR AND text:("education" OR "female members" OR "envirionmental management promotion" OR "gas emissions" OR "human rights policy" OR "governance law" OR "dividend policy" OR "reuse" OR "recruit" OR "strategic social contribution" OR "social regulation" OR "raw material" OR "renewable energy" OR "environmental management" OR "human" OR "audit expertise" OR "industrial accident" OR "employees" OR "eco-certified" OR "supplier esg agreements" OR "material consumption" OR "recycled" OR "recycle" OR "reuse water" OR "esg agenda" OR "energy" OR "health" OR "waste" OR "CEO" OR "Board of Directors" OR "association" OR "member volunteer participation" OR "eco" OR "retain" OR "air pollutant" OR "air pollutant emissions" OR "pollutant" OR "female" OR "executive director" OR "social law" OR "environmental regulations" OR "protection" OR "privacy" OR "gender" OR "audit body" OR "esg support" OR "consumption" OR "member volunteer" OR "waste recycling" OR "full-time employees" OR "committess" OR "eco certified" OR "emissions" OR "partner esg management" OR "privacy infringement remedies" OR "disabled employment" OR "information" OR "waste discharge" OR "subsidiary material consumption" OR "water pollutant emissions" OR "disabled" OR "voluntary" OR "outside director" OR "training expenses" OR "greenhouse gas" OR "director expertise" OR "raw material consumption" OR "esg agreements" OR "voting system" OR "employee" OR "freedom" OR "outside directors" OR "social contribution" OR "BOD" OR "protection system" OR "greenhouse" OR "safety promotion" OR "remedies" OR "volunteer participation" OR "partner" OR "gender diversity" OR "renewable" OR "policy" OR "recycled raw materials" OR "female salary" OR "supplier esg" OR "esg management" OR "privacy infringement" OR "water" OR "shareholders" OR "governance" OR "water pollutant" OR "partner management" OR "audit" OR "health promotion" OR "safety" OR "environmental laws" OR "voluntary turnover" OR "water consumption" OR "greenhouse gas emissions" OR "BOD agenda" OR "subsidiary material" OR "volunteer" OR "chairman" OR "esg partners" OR "human rights risk" OR "new hires" OR "governance regulation" OR "information protection system" OR "social" OR "human rights" OR "information protection" OR "voting" OR "energy usage" OR "ethics" OR "esg" OR "accident" OR "recycled materials" OR "environmental" OR "director")</br>
+				검색 연도는 1999-2021으로 제한하였으며, 총 특허수는 2편임.
+			</p>
+		
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	 if(doc.offsetHeight != 0){
+	  pageheight = doc.offsetHeight;
+	  parent.document.getElementById("autoHeight1").height = Number(pageheight+40)+"px";
+	 }
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];
+		//연도별 특허 출원 그래프
+		M3_LineBarChart('LineBarChart1','특허수(전체)','특허수(기준국가)',itemList, "0000042763", "");
+	}
+});
+
+</script>
+</head>
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<!--2-1. 연도별 특허 수-->
+		<div class="doc_content">
+			<h2 style="padding:0px 0; font-weight:bold; font-size:17px; color:#333;">1. 연도별 특허 수</h2>
+				<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 1. 연도별 특허 수</p>
+				<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+					<tr>
+						<th width="25%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">연도</th>
+						<th width="25%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+						<th width="25%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">누적 특허 수</th>
+						<th width="25%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">Korea, Republic 특허 수</th>
+					</tr>
+
+					<tr>
+						<td style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0;">1999</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					</tr>
+	
+					<tr>
+						<td style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0;">2021</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					</tr>
+	
+			
+				</table>
+				<div style="height:20px;"></div>
+				
+				
+				<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+				<tr >
+					<td rowspan="26" style = "text-align: center">
+						<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042763/LineBarChart1.png'></img>							
+					</td>
+				</tr>
+				</table>
+				<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+				<tr >
+					<td colspan = "2" style = "font-weight:bold; text-align :center">
+						그림 1. 연도별 특허 출원 추이<br />(전체 특허 수는 막대 그래프, 한국의 특허 수는 꺾은선 그래프 참조)
+					</td>
+				</tr>
+				</table>
+							
+				
+																							
+				<div style="height:20px;"></div>
+			
+	<table>
+
+
+			<tr>
+				<td valign="top">○</td>
+				<td>
+					분석 대상 기간의 연평균 증가율은 특허 수 기준 0%, 
+					누적 특허 수 기준 100%인 것으로 나타남.
+				</td>
+			</tr>
+	</table>
+
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight2").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];
+		//연도별 특허 출원 그래프
+		M3_RotateBarChart('RotateBarChart1','국가','특허수',itemList, "0000042763", "");
+	}
+});
+
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<!--2-1. 연도별 특허 수-->
+		<div class="doc_content">
+			<h2 style="padding:0px 0; font-weight:bold; font-size:17px; color:#333;">2. 출원인 국적별 분석 (특허권 보유 국가 분석)</h2>
+			<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">2-1. 출원인 국적별 특허 수</h3>
+			<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 2. 출원인 국적별 특허 수</p>
+			<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+				<tr>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">순위</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인 국적</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">비중 (%)</th>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">Korea, Republic</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">100</td>
+				</tr>
+
+			</table>
+			<div style="height:20px;"></div>
+			
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042763/RotateBarChart1.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 2. 출원인 국적별 특허 수
+				</td>
+			</tr>
+			</table>
+			
+
+			<div style="height:20px;"></div>
+		<table>
+
+			<tr>
+				<td valign="top">○ </td>
+				<td> 
+					 특허의 출원인 국적을 분석한 결과 Korea, Republic이(가) 전체 2건의 특허 중
+					 100%(2건)를 점유하여 가장 많은 특허를 발표한 것으로 나타났음.
+				</td>
+			</tr>
+
+
+	
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					Korea, Republic은(는) 2편 (100%)의 특허를 발표하여 1위를 차지하였음.
+				</td>
+			</tr>
+	
+		
+
+		</table>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight3").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var itemList = []
+	var graphItemList = []
+	
+	var chartlen = 800 + (0 * 5);
+	
+	//
+	M3_LineChart('LineChart1', '국가','연도','특허 수',itemList, graphItemList, "0000042763", "");
+	
+	$("#LineChart1").height(chartlen);
+});	
+</script>
+</head>
+
+<body  onload="init();">
+<div id="doc_containerbox">
+	<!--2-2-2. 출원인 국적별 연도별 특허 수 -->
+	<div class="doc_content">
+		<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">2-2. 출원인 국적별 연도별 특허 수</h3>
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 3. 출원인 국적별 연도별 특허 수</p>
+		<table width="100%" border="1" bordercolor="#666666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+			<tr>
+				<th style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">연도</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">1999</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2000</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2001</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2002</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2003</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2004</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2005</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2006</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2007</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2008</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2009</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2010</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2011</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2012</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2013</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2014</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2015</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2016</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2017</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2018</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2019</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2020</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2021</th>
+
+				<th width="4%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">총합</th>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0; font-weight:bold">Korea, Republic</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+			</tr>
+
+		</table>
+		<div style="height:20px;"></div>
+		
+
+		<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042763/LineChart1.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 3. 출원인 국적별 연도별 특허 수
+				</td>
+			</tr>
+		</table>
+	
+
+			
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight15").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];
+		//연도별 특허 출원 그래프
+		M3_RotateBarChart('RotateBarChart5','국가','활동도 지수',itemList, "0000042763", "");
+	}
+});
+
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<!--2-1. 연도별 특허 수-->
+		<div class="doc_content">
+			<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">2-3. 출원인 국적별 활동도 지수(Activity Index) 분석</h3>
+			<table>
+				<tr>
+					<td valign="top">○</td>
+					<td>정의 : 특정 기술 분야에서 특정 국가의 특허 점유율을 전체 특허에서 해당 국가의 점유율에 비교하여 나타낸 지수</td>
+				</tr>
+			</table>
+			<p style="margin:0; padding:0px; text-align:center; font-weight:bold;">
+			
+				<img src='http://compas.kisti.re.kr/compas/images/docimg/m3_001.png'/>
+			
+			</p>
+			<table>
+				<tr>
+					<td valign="top">○</td>
+					<td>의미 : 특정 국가의 활동도 지수가 1.0이면 전체 기술 분야 특허에서 특정 기술 분야가 차지하는 비중과 특정 국가의 전체 특허에서 특정 국가의 해당 기술 분야가 차지하는 비중이 같다는 의미임.</td>
+				</tr>
+			</table>
+			<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 4. 출원인 국적별 활동도 지수</p>
+			<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+				<tr>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인 국적</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특정 기술 분야 총 특허 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특정 국가 전체 특허 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">전체 특허 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">활동도 지수</th>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">Korea, Republic</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">282947</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">5731021</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">20.255</td>
+				</tr>
+
+			</table>
+			<div style="height:20px;"></div>
+			
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042763/RotateBarChart5.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 4. 출원인 국적별 활동도 지수
+				</td>
+			</tr>
+			</table>
+			
+
+			<div style="height:20px;"></div>
+		<table>
+
+			<tr>
+				<td valign="top">○ </td>
+				<td> 
+					 출원인 국적별 활동도 지수 분석 결과, Korea, Republic이(가) 
+					 가장 높은 값(20.255)을 보여 해당 기술에서의 활동이 가장 활발한 것으로 나타남. 
+				</td>
+			</tr>
+	
+			<tr>
+				<td valign="top">○ </td>
+				<td> 
+					분야 평균 이상의 활동도 지수를 보이는 국가는 Korea, Republic(20.255),  이(가) 있음.
+				</td>
+			</tr>
+
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					Korea, Republic의 활동도 지수는 20.255을(를) 기록하였으며,
+					이는 해당 기술에서의 활동이 세계 평균 이상임을 의미함.
+				</td>
+			</tr>
+
+			
+
+		</table>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight16").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];
+		//연도별 특허 출원 그래프
+		M3_RotateBarChart('RotateBarChart6','국가','이끌림 지수',itemList, "0000042763", "");
+	}
+});
+
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<!--2-1. 연도별 특허 수-->
+		<div class="doc_content">
+			<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">2-4. 출원인 국적별 이끌림 지수(Attractivity Index) 분석</h3>
+			<table>
+				<tr>
+					<td valign="top">○</td>
+					<td>정의 : 특정 기술 분야에서 특정 국가의 특허 피인용 수 점유율을 전체 특허에서 해당 국가의 피인용 수 점유율에 비교하여 나타낸 지수</td>
+				</tr>
+			</table>
+			<p style="margin:0; padding:0px; text-align:center; font-weight:bold;">
+			
+				<img src='http://compas.kisti.re.kr/compas/images/docimg/m3_002.png'/>
+			
+			</p>
+			<table>
+				<tr>
+					<td valign="top">○</td>
+					<td>의미 : 특정 국가의 이끌림 지수가 1.0이면 전체 기술 분야 특허에서 특정 기술 분야가 차지하는 피인용 수 비중과 특정 국가의 전체 특허에서 특정 국가의 해당 기술 분야가 차지하는 피인용 수 비중이 같다는 의미임.</td>
+				</tr>
+			</table>
+		
+			<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 5. 출원인 국적별 이끌림 지수</p>
+			<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+				<tr>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인 국적</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 피인용 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특정 기술 분야 특허의 총 피인용 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특정 국가 특허 전체 피인용 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">전체 특허 피인용 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">이끌림 지수</th>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">Korea, Republic</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">1444216</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">63445731</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">43.931</td>
+				</tr>
+
+			</table>
+			<div style="height:20px;"></div>
+			
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042763/RotateBarChart6.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 5. 출원인 국적별 이끌림 지수
+				</td>
+			</tr>
+			</table>
+			
+
+			<div style="height:20px;"></div>
+		<table>
+
+			<tr>
+				<td valign="top">○ </td>
+				<td> 
+					 출원인 국적별 이끌림 지수 분석 결과, Korea, Republic이(가) 
+					 가장 높은 값(43.931)을 보여 해당 기술에서의 활동이 가장 활발한 것으로 나타남. 
+				</td>
+			</tr>
+	
+			<tr>
+				<td valign="top">○ </td>
+				<td> 
+					분야 평균 이상의 이끌림 지수를 보이는 국가는 Korea, Republic(43.931),  이(가) 있음.
+				</td>
+			</tr>
+
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					Korea, Republic의 이끌림 지수는 43.931을(를) 기록하였으며,
+					이는 해당 기술에서의 활동이 세계 평균 이상임을 의미함.
+				</td>
+			</tr>
+
+			
+
+		</table>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight4").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList1 = [];
+		var itemList = [];
+		var graphItemList = [];
+		var maxim = 0.0*1.1;
+		var maxim_x = 0.0*1.1;
+		
+		var chartlen = 800 + (0 * 5);
+		//연도별 특허 출원 그래프
+		M3_RotateBarChart('RotateBarChart2','출원인','수준지수',itemList1, "0000042763", "");
+		M3_PointChart('PointChart1', '국가','특허 수','수준지수',itemList, graphItemList, maxim, maxim_x, "0000042763", "");
+		$("#PointChart1").height(chartlen);
+	}
+});
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<!--2-2-4. 출원인 국적별 특허 수준 분석 -->
+	<div class="doc_content">
+		<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">2-5. 출원인 국적별 특허 수준 분석</h3>
+		<table>
+			<tr>
+				<td valign="top">○</td>
+				<td>정의 : 특정 기술 분야 전체 특허의 평균 피인용 수에 대한 특정 국가 발표 특허의 평균 피인용 수의 비로서 피인용 수에 기반을 둔 문헌의 질적 수준 평가 지표</td>
+			</tr>
+			<tr>
+				<td valign="top">○</td>
+				<td>의미 : 특정 국가의 수준 지수가 1.0인 경우 해당 국가가 발표한 특허의 평균 피인용 수가 해당 분야 전체 특허의 평균 피인용 수와 같음을 의미하며, 1.0을 초과하는 경우는 해당 분야 평균 피인용 수에 비해 높음을 의미함.</td>
+			</tr>
+		</table>
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 6. 출원인 국적별 특허 수준 지수</p>
+		<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">	
+			<tr>
+				<th width="40%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">국가</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 당 피인용 수</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">수준 지수</th>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Korea, Republic</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+			</tr>
+
+		</table>
+		<div style="height:20px;"></div>
+	
+				
+		<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042763/RotateBarChart2.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 6. 출원인 국적별 특허 수준 지수
+				</td>
+			</tr>
+		</table>
+		
+
+		<div style="height:20px;"></div>
+		<table>
+
+			<tr>
+				<td valign="top">○ </td>
+				<td> 
+					 국가별 특허의 수준 지수 분석 결과 Korea, Republic이(가) 가장 높은 값(1)
+					 을 보여 특허의 피인용 관점에서 질적 수준이 가장 우수한 것으로 나타남.
+				</td>
+			</tr>
+			
+						
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					분야 평균 이상의 수준을 보이는 국가는 Korea, Republic(1)
+					이(가) 있음.			
+				</td>
+			</tr>
+			
+			
+
+
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					Korea, Republic의 수준 지수는 1를 기록하였으며, 이는 질적 수준이 세계 평균 이하임을 의미함.
+				</td>
+			</tr>
+	
+		</table>
+		
+		
+		<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042763/PointChart1.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 7. 출원인 국적별 특허 수 대비 수준 지수
+				</td>
+			</tr>
+		</table>
+		
+
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type"/>
+<title>무제 문서</title>
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight13").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];		
+		var graphItemList = [];
+		var maxim = 0.0*1.1;
+		var maxim_x = 0.0*1.1;
+		
+		var chartlen = 800 + (0 * 5);
+		//
+		M3_PointChart('PointChart2', '국가','특허 수','평균 패밀리 크기',itemList, graphItemList, maxim, maxim_x, "0000042763", "");
+		$("#PointChart2").height(chartlen);
+	}
+});
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">2-6. 출원인 국적별 평균 패밀리 크기</h3>
+		<table>
+			<tr>
+				<td valign="top">○</td>
+				<td>정의 : 동일한 내용의 발명이 복수의 국가에 출원된 경우 이들 특허를 패밀리(대응) 특허라고 하며, 패밀리 특허가 출원된 국가의 수를 패밀리 크기라 함. </td>
+			</tr>
+			<tr>
+				<td valign="top">○</td>
+				<td>의미 : 다수의 국가에서 보호 받을 가치가 있는 특허의 경우 패밀리 크기가 커지게 되며, 특허의 가치를 나타내는 지표로 사용될 수 있음.</td>
+			</tr>
+		</table>
+		
+		<div style="height:20px;"></div>		
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 7. 출원인 국적별 평균 패밀리 크기</p>
+		<table width="100%" border="1" bordercolor="#666666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">	
+			<tr>
+				<th width="40%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">국가</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">평균 패밀리 크기</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">분야 평균 대비<br/>평균 패밀리 크기</th>
+			</tr>
+		
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Korea, Republic</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>	
+			</tr>
+		
+		</table>
+		<div style="height:20px;"></div>
+
+
+
+		<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042763/PointChart2.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 8. 특허 수 대비 평균 패밀리 크기
+				</td>
+			</tr>
+		</table>
+		
+
+		<div style="height:20px;"></div>
+		<table>
+			<tr>
+				<td valign="top">○ </td>
+				<td> 
+					 특허의 평균 패밀리 크기 분석 결과Korea, Republic이(가) 가장 높은 값(2)
+					 을 보여 특허의 패밀리 크기 관점에서 질적 수준이 가장 우수한 것으로 나타남.
+				</td>
+			</tr>
+		
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					분야 평균 이상의 수준을 보이는 국가는 
+					Korea, Republic(1)
+					이(가) 있음.	
+				</td>
+			</tr>
+		
+		
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					한국의 분야평균 대비 평균 패밀리 크기는 1.0을(를) 기록하였으며, 이는 질적 수준이 세계 평균 이하임을 의미함.
+				</td>
+			</tr>
+			
+		</table>
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight5").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];
+		//연도별 특허 출원 그래프
+		M3_RotateBarChart('RotateBarChart3','출원인','특허 수',itemList, "0000042763", "");
+	}
+});
+
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<!--2-3-1. 출원인별 특허 수-->
+	<div class="doc_content">
+		<h2 style="padding:0px 0; font-weight:bold; font-size:17px; color:#333;">3. 세계 경쟁자 분석</h2>
+		<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">3-1. 출원인별 특허 수</h3>
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 8. 출원인별 특허 수</p>
+		<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">	
+			<tr>
+				<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">순위</th>
+				<th width="50%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">비중 (%)</th>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">CJ LOGISTICS CORPORATION</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Kukbo Pharma Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+			</tr>
+
+		</table>
+		<div style="height:20px;"></div>
+
+
+		<table>
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					특허의 출원인을 분석한 결과 CJ LOGISTICS CORPORATION이(가) 전체 2건의 특허 중 
+					50%(1건 )를 점유하여 가장 많은 특허를 발표한 것으로 나타났음.
+				</td>
+			</tr>
+				
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					Kukbo Pharma Co., Ltd.은(는) 50%(1건)을 점유하여 2위를 차지하였음.				
+				</td>
+			</tr>
+			
+			
+		</table>
+		
+	
+
+		<div style="height:20px;"></div>
+		
+		
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+				<tr >
+					<td rowspan="26" style = "text-align: center">
+						<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042763/RotateBarChart3.png'></img>
+					</td>
+				</tr>
+				</table>
+				<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+				<tr >
+					<td colspan = "2" style = "font-weight:bold; text-align :center;">
+						그림 9. 출원인별 특허 수
+					</td>
+				</tr>
+			</table>
+			
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type"/>
+<title>무제 문서</title>
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight6").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var itemList = []
+	var graphItemList = []
+	
+	var chartlen = 800 + (0 * 5);
+	
+	//
+	M3_LineChart('LineChart2', '국가','연도','특허 수',itemList, graphItemList, "0000042763", "");
+	
+	$("#LineChart2").height(chartlen);
+});	
+</script>
+</head>
+
+<body  onload="init();">
+<div id="doc_containerbox">
+	<!--2-3-2. 출원인별 연도별 특허 수 -->
+	<div class="doc_content">
+		<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">3-2. 출원인별 연도별 특허 수</h3>
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold">표 9. 출원인별 연도별 특허 수 </p>
+		<table width="100%" border="1" bordercolor="666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+			<tr>
+				<th style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">연도</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">1999</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2000</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2001</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2002</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2003</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2004</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2005</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2006</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2007</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2008</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2009</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2010</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2011</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2012</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2013</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2014</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2015</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2016</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2017</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2018</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2019</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2020</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2021</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">총합</th>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">CJ LOGISTICS CORPORATION</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Kukbo Pharma Co., Ltd.</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+			</tr>
+
+		</table>
+		<div style="height:20px;"></div>
+
+
+		<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042763/LineChart2.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 10. 출원인별 연도별 특허 수
+				</td>
+			</tr>
+		</table>
+	
+
+
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight17").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];
+		//연도별 특허 출원 그래프
+		M3_RotateBarChart('RotateBarChart7','국가','활동도 지수',itemList, "0000042763", "");
+	}
+});
+
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<!--2-1. 연도별 특허 수-->
+		<div class="doc_content">
+			<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">3-3. 출원인별 활동도 지수(Activity Index) 분석</h3>
+			<table>
+				<tr>
+					<td valign="top">○</td>
+					<td>정의 : 특정 기술 분야에서 특정 출원인의 특허 점유율을 전체 특허에서 해당 출원인의 점유율에 비교하여 나타낸 지수</td>
+				</tr>
+			</table>
+			<p style="margin:0; padding:0px; text-align:center; font-weight:bold;">
+			
+				<img src='http://compas.kisti.re.kr/compas/images/docimg/m3_003.png'/>
+			
+			</p>
+			<table>
+				<tr>
+					<td valign="top">○</td>
+					<td>의미 : 특정 출원인의 활동도 지수가 1.0이면 전체 특허에서 특정 기술 분야가 차지하는 비중과 특정 출원인의 전체 특허에서 특정 출원인의 해당 기술 분야가 차지하는 비중이 같다는 의미임.</td>
+				</tr>
+			</table>
+			<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 10. 출원인별 활동도 지수</p>
+			<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+				<tr>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특정 기술 분야 총 특허 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특정 출원인 전체 특허 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">전체 특허 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">활동도 지수</th>
+				</tr>
+
+				<tr><td style="border:1px solid #666; text-align:center; padding:2px 0;" colspan="4">데이터값이 없습니다</td></tr>
+
+			</table>
+			<div style="height:20px;"></div>
+			
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042763/RotateBarChart7.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 11. 출원인별 활동도 지수
+				</td>
+			</tr>
+			</table>
+			
+
+			<div style="height:20px;"></div>
+		<table>
+
+		</table>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight18").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];
+		//연도별 특허 출원 그래프
+		M3_RotateBarChart('RotateBarChart8','국가','이끌림 지수',itemList, "0000042763", "");
+	}
+});
+
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<!--2-1. 연도별 특허 수-->
+		<div class="doc_content">
+			<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">3-4. 출원인별 이끌림 지수(Attractivity Index) 분석</h3>
+			<table>
+				<tr>
+					<td valign="top">○</td>
+					<td>정의 : 특정 기술 분야에서 특정 출원인의 특허 피인용 수 점유율을 전체 특허에서 해당 출원인의 피인용 수 점유율에 비교하여 나타낸 지수</td>
+				</tr>
+			</table>
+			<p style="margin:0; padding:0px; text-align:center; font-weight:bold;">
+			
+				<img src='http://compas.kisti.re.kr/compas/images/docimg/m3_004.png'/>
+			
+			</p>
+			<table>
+				<tr>
+					<td valign="top">○</td>
+					<td>의미 : 특정 출원인의 이끌림 지수가 1.0이면 전체 기술 분야 특허에서 특정 기술 분야가 차지하는 피인용 수 비중과 특정 출원인의 전체 특허에서 특정 출원인의 해당 기술 분야가 차지하는 피인용 수 비중이 같다는 의미임.</td>
+				</tr>
+			</table>
+			<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 11. 출원인별 이끌림 지수</p>
+			<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+				<tr>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 피인용 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특정 기술 분야 특허의 총 피인용 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특정 출원인 특허 전체 피인용 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">전체 특허 피인용 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">이끌림 지수</th>
+				</tr>
+
+				<tr><td style="border:1px solid #666; text-align:center; padding:2px 0;" colspan="4">데이터값이 없습니다</td></tr>
+
+			</table>
+			<div style="height:20px;"></div>
+			
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042763/RotateBarChart8.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 12. 출원인별 이끌림 지수
+				</td>
+			</tr>
+			</table>
+			
+
+			<div style="height:20px;"></div>
+		<table>
+
+		</table>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" doc_content="text/html; charset=utf-8" />
+<title>무제 문서</title>
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight7").height = Number(pageheight+40)+"px";
+	}
+}
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList1 = [];
+		var itemList2 = [];
+		var graphItemList2 = [];
+		var maxim = 0.0*1.1;
+		var maxim_x = 0.0*1.1;
+		
+		var chartlen = 800 + (0 * 5);
+		//연도별 특허 출원 그래프
+		M3_RotateBarChart('RotateBarChart4','출원인','수준지수',itemList1, "0000042763", "");
+		M3_PointChart('PointChart3', '국가','특허 수','수준지수',itemList2, graphItemList2, maxim, maxim_x, "0000042763", "");
+		$("#PointChart3").height(chartlen);
+	}
+});
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<!--2-3-4. 출원인별 특허 수준 분석-->
+	<div class="doc_content">
+		<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">3-5. 출원인별 특허 수준 분석</h3>
+		<table>
+			<tr>
+				<td valign="top">○</td>
+				<td>정의 : 특정 기술 분야 전체 특허의 평균 피인용 수에 대한 특정 출원인 발표 특허의 평균 피인용 수의 비로서 피인용 수에 기반을 둔 문헌의 질적 수준 평가 지표</td>
+			</tr>
+			<tr>
+				<td valign="top">○</td>
+				<td>의미 : 특정 출원인의 수준 지수가 1.0인 경우 해당 출원인이 발표한 특허의 평균 피인용 수가 해당 분야 전체 특허의 평균 피인용 수와 같음을 의미하며, 1.0을 초과하는 경우는 해당 분야 평균 피인용 수에 비해 높음을 의미함.</td>
+			</tr>
+		</table>
+		<div style="height:20px;"></div>
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold">표 12. 출원인별 특허 수준 지수</p>
+		<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">	
+			<tr>
+				<th width="40%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 당 피인용 수</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">수준 지수</th>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Kukbo Pharma Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">CJ LOGISTICS CORPORATION</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+			</tr>
+
+		</table>
+
+		<div class="blank20"></div>
+		
+		<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042763/RotateBarChart4.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 13. 출원인별 특허 수준 지수
+				</td>
+			</tr>
+		</table>
+		
+		
+		<div style="height:20px;"></div>
+		
+		<table>
+		
+			<tr>
+				<td valign="top">○ </td>
+				<td>해당 기술의 출원인별 수준 지수 분석 결과 Kukbo Pharma Co., Ltd.이(가) 가장 높은 값(2)
+					을 보여 특허의 피인용 관점에서 질적 수준이 가장 우수한 것으로 나타남.
+				</td>
+			</tr>
+			
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					분야 평균 이상의 수준을 보이는 출원인으로는
+					Kukbo Pharma Co., Ltd.(2)
+					이(가) 있음.
+				</td>
+			</tr>
+		
+		</table>
+		<div class="blank20"></div>
+		
+		
+		<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042763/PointChart3.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 14. 출원인별 특허 수 대비 수준 지수
+				</td>
+			</tr>
+		</table>
+			
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type"/>
+<title>무제 문서</title>
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+		if(doc.offsetHeight != 0){
+			pageheight = doc.offsetHeight;
+			parent.document.getElementById("autoHeight14").height = Number(pageheight+40)+"px";
+		}
+	parent.loadKill();
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];		
+		var graphItemList = [];
+		var maxim = 0.0*1.1;
+		var maxim_x = 0.0*1.1;
+		var chartlen = 800 + (0 * 5);
+		//
+		M3_PointChart('PointChart4', '국가','특허 수','평균 패밀리 크기',itemList, graphItemList, maxim, maxim_x, "0000042763", "");
+		$("#PointChart4").height(chartlen);
+	}
+});
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">3-6. 출원인별 평균 패밀리 크기</h3>
+		<table>
+			<tr>
+				<td valign="top">○</td>
+				<td>정의 : 동일한 내용의 발명이 복수의 국가에 출원된 경우 이들 특허를 패밀리(대응) 특허라고 하며, 패밀리 특허가 출원된 국가의 수를 패밀리 크기라 함.</td>
+			</tr>
+			<tr>
+				<td valign="top">○</td>
+				<td>의미 : 다수의 국가에서 보호 받을 가치가 있는 특허의 경우 패밀리 크기가 커지게 되며, 특허의 가치를 나타내는 지표로 사용될 수 있음.</td>
+			</tr>
+		</table>
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold">표 13. 출원인별 평균 패밀리 크기</p>
+		<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">	
+			<tr>
+				<th width="40%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">평균 패밀리 크기</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">분야 평균 대비<br/>평균 패밀리 크기</th>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">CJ LOGISTICS CORPORATION</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1.5</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Kukbo Pharma Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.5</td>	
+			</tr>
+
+		</table>
+		<div class="blank20"></div>
+
+
+		<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042763/PointChart4.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 15. 특허 수 대비 평균 패밀리 크기(출원인별)
+				</td>
+			</tr>
+		</table>
+				
+		<div style="height: 20px;"></div>
+		<table>
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					특허의 평균 패밀리 크기 분석 결과 CJ LOGISTICS CORPORATION이(가) 가장 높은 값(3)을 보여 
+					특허의 패밀리 크기 관점에서 질적 수준이 가장 우수한 것으로 나타남.				
+				</td>
+			</tr>
+			
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					분야 평균 이상의 수준을 보이는 출원인으로는 
+					CJ LOGISTICS CORPORATION(1.5)
+					이(가) 있음.			
+				</td>
+			</tr>
+			
+		</table>
+
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type"/>
+<title>무제 문서</title>
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+
+
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight8").height = Number(pageheight+40)+"px";
+	}
+}
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<h2 style="padding:0px 0; font-weight:bold; font-size:17px; color:#333;">4. 국내 경쟁자 분석</h2>
+		<p>○ 의미 :  'Korea, Republic 특허'는 출원인의 국적이 Korea, Republic인 특허를 의미함.</p>
+		<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">4-1. Korea, Republic 특허 출원인별 특허 수</h3>
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 14. Korea, Republic 특허 출원인별 특허 수 </p>
+		<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+			<tr>
+				<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">번호</th>
+				<th width="70%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인</th>	
+				<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+				<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">비중(%)</th>
+			</tr>
+
+			<tr>
+		
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">CJ LOGISTICS CORPORATION</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+		
+			</tr>
+
+			<tr>
+		
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Kukbo Pharma Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+		
+			</tr>
+
+			
+		</table>
+		<div style="height:20px;"></div>
+
+<!-- ○ 	한국 특허의 출원인을 분석한 결과 Samsung Electronics Co., Ltd.이(가) 전체 1,601건의 특허 중 0.87%(14건)를 점유하여 가장 많은 특허를 발표한 것으로 나타났음. -->
+<!-- ○ 	Electronics and Telecommunications Research Institute은(는) 0.31%(5건), Goldstar Co., Ltd.은(는) 0.19%(3건)을 점유하여 각각 2, 3위를 차지하였음. -->
+		<table>
+		
+			<tr>
+				<td valign="top">○</td>
+				<td>Korea, Republic 특허의 출원인을 분석한 결과 CJ LOGISTICS CORPORATION이(가) 전체 2건의 특허 중 
+				50%(1건)를 점유하여 가장 많은 특허를 발표한 것으로 나타났음.</td>
+			</tr>
+							
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					Kukbo Pharma Co., Ltd.은(는) 50%(1건)을 점유하여 2위를 차지하였음.				
+				</td>
+			</tr>
+						
+				
+		</table>
+
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type"/>
+<title>무제 문서</title>
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight9").height = Number(pageheight+40)+"px";
+	}
+}
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">4-2. Korea, Republic 특허 출원인별 연도별 특허 수</h3>
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold">표 15. Korea, Republic 특허 출원인별 연도별 특허 수</p>
+		<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">	
+			<tr>
+				<th style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">연도</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">1999</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2000</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2001</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2002</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2003</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2004</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2005</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2006</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2007</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2008</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2009</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2010</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2011</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2012</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2013</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2014</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2015</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2016</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2017</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2018</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2019</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2020</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2021</th>
+
+				<th width="3.7735849056603774%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">총합</th>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">CJ LOGISTICS CORPORATION</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Kukbo Pharma Co., Ltd.</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+			</tr>
+
+		</table>
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type"/>
+<title>무제 문서</title>
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight10").height = Number(pageheight+40)+"px";
+	}
+}
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">4-3. Korea, Republic 특허 출원인별 특허 수준 분석</h3>
+		<table>
+			<tr>
+				<td valign="top">○</td>
+				<td>정의 : 특정 기술 분야 전체 특허의 평균 피인용 수에 대한 특정 출원인 발표 특허의 평균 피인용 수의 비로서 피인용 수에 기반을 둔 문헌의 질적 수준 평가 지표</td>
+			</tr>
+			<tr>
+				<td valign="top">○</td>
+				<td>의미 : 특정 출원인의 수준 지수가 1.0인 경우 해당 출원인이 발표한 특허의 평균 피인용 수가 해당 분야 전체 특허의 평균 피인용 수와 같음을 의미하며, 1.0을 초과하는 경우는 해당 분야 평균 피인용 수에 비해 높음을 의미함.</td>
+			</tr>
+		</table>
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold">표 16. 출원인별 특허 수준 지수</p>
+		<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">		
+			<tr>
+				<th width="40%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 당 피인용 수</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">수준 지수</th>
+			</tr>
+	
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Kukbo Pharma Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>	
+			</tr>
+	
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">CJ LOGISTICS CORPORATION</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>	
+			</tr>
+
+		</table>
+		<div class="blank20"></div>
+
+		<table>
+		
+			<tr>
+				<td valign="top">○</td>
+				<td>
+					해당 기술의 Korea, Republic 출원인별 수준 지수 분석 결과Kukbo Pharma Co., Ltd.이(가) 가장 높은 값(2)
+					을 보여 특허의 피인용 관점에서 질적 수준이 가장 우수한 것으로 나타남.
+				</td>
+			</tr>
+			
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					분야 평균 이상의 수준을 보이는 Korea, Republic 출원인으로는
+					Kukbo Pharma Co., Ltd.(2)
+					가 있음.
+				</td>		
+			</tr>
+			
+		</table>
+
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type"/>
+<title>무제 문서</title>
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight11").height = Number(pageheight+40)+"px";
+	}
+}
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<h2 style="padding:0px 0; font-weight:bold; font-size:17px; color:#333;">5. 세계 핵심 경쟁자 리스트</h2>
+		<table>
+			<tr>
+				<td valign="top">○</td>
+				<td>핵심 경쟁자 리스트는 특허 수(P) 기준으로 상위 30위까지 제시하며, 부가적으로 핵심 경쟁자의 수준 지수(Q), 분야 평균 대비 평균 패밀리 크기 값을 함께 제공함.</td>
+			</tr>
+		</table>
+		<div style="height:20px;"></div>			
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 17. 핵심 경쟁자 리스트</p>
+		<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">		
+			<tr>
+				<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">순위</th>
+				<th width="40%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">핵심 경쟁자(출원인)</th>
+				<th width="15%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수(P)</th>
+				<th width="15%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">수준 지수(Q)</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">분야 평균 대비<br/>평균 패밀리 크기</th>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Kukbo Pharma Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.5</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">CJ LOGISTICS CORPORATION</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1.5</td>	
+			</tr>
+
+		</table>
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type"/>
+<title>무제 문서</title>
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight12").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];
+		//연도별 특허 출원 그래프
+		M3_goChart('goChart1','피 인용 수','특허 수',itemList, "0000042763", "");
+	}
+});
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<h2 style="padding:0px 0; font-weight:bold; font-size:17px; color:#333;">&lt;부록&gt; 고 피인용 특허</h2>
+
+<div class="blank20"></div>
+
+
+				<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+					<tr >
+						<td rowspan="26" style = "text-align: center">
+							<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042763/goChart1.png'></img>
+						</td>
+					</tr>
+					</table>
+					<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+					<tr >
+						<td colspan = "2" style = "font-weight:bold; text-align :center;">
+							그림 16. 피인용 수에 따른 특허 수의 분포
+						</td>
+					</tr>
+				</table>
+				
+
+	<div style="height:20px;"></div>
+	
+	<table>
+		<tr>
+			<td valign="top">○ </td>
+			<td>
+				ESG/Transport_Storage 기술에 속하는 특허 2편 중 
+				(1999-2021년 출판된 특허), 적어도 1회 이상 인용된 특허 수는 
+				1편(50%)임.
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">○ </td>
+			<td>
+				ESG/Transport_Storage 기술에 속하는 특허 중 피인용수가 높은 특허 리스트를 표 18 에 나타내었음.
+			</td>
+		</tr>
+	</table>
+	
+
+		<div style="height:20px;"></div>
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 18. 고 피인용 특허 목록</p>
+		<table width="100%" border="1" bordercolor="#666666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+			<colgroup>
+				<col width="10%" />
+				<col />
+				<col width="15%" />
+				<col width="15%" />
+				<col width="15%" />
+			</colgroup>			
+			<tr>
+				<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">번호</th>
+				<th width="25%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허제목(미국특허번호)</th>
+				<th width="25%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인</th>
+				<th width="25%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">패밀리 특허번호</th>
+				<th width="15%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">피인용 수</th>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Spray-type insecticidal paint and manufacturing process thereof<br/>(<a class="pnlink" href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=5912003.PN.&OS=PN/5912003&RS=PN/5912003" target="_blank" rel = "noopener noreferrer">05912003</a>)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Kukbo Pharma Co., Ltd.(KR, Chungcheongbuk-do)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">US 05912003    19990615</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+			</tr>
+
+		</table>
+	</div>
+</div>
+</body>
+</html>
+
+
+</body>
+</html>

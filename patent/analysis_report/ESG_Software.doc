@@ -1,0 +1,4044 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="application/vnd.word; charset=utf-8" />
+<title>보고서보기</title>
+<style>
+body { margin:0px; padding:10px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+</script>
+</head>
+<body  style="background:#fff;">
+	<div style="position:relative;">
+		<p class=MsoNormal align=center style='margin-left:.05pt;text-align:center'><a name="project_name"></a><span lang=EN-US style='font-size:20.0pt'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span style='font-size:20.0pt'>ESG/Software에 대한</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span style='font-size:20.0pt'>핵심 경쟁자 탐색</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><a name="project_date"></a><span lang=EN-US style='font-size:16.0pt;color:red'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US style='font-size:14.0pt'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US style='font-size:14.0pt'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US style='font-size:14.0pt'>&nbsp;</span></p>
+		<table width="544" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;" align="center">
+			<tr style="font-size:16px; padding-top:10px;">
+				<td align="center">					
+					본 분석 보고서는 한국과학기술정보연구원의 주요사업인 <br/>데이터 기반 지능형 미래기술 분석체제 구축(K-19-L03-C03-S01) <br/>수행의 일환으로 작성되었음. 
+				</td>
+			</tr>
+		</table>
+		<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US style='font-size:14.0pt'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US style='font-size:14.0pt'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US style='font-size:20.0pt'>&nbsp;</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span style='font-size:20.0pt'>한국과학기술정보연구원</span></p>
+		<p class=MsoNormal align=center style='text-align:center'><span style='font-size:20.0pt'>데이터분석본부 미래기술분석센터</span></p>
+	</div>
+	<div>
+		<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+			<tr><th  style="border:1px solid #666; background:#F0F0F0; padding:10px; font-size:18px; font-weight:bold;">목차</th></tr>
+			<tr>
+				<td style="border:1px solid #666; padding:10px 20px;">
+					<h1 style="font-size:16px"><a href="#">검색 조건</a></h1>
+					<h1 style="font-size:16px"><a href="#">1. 연도별 특허 수</a></h1>
+					<h1 style="font-size:16px"><a href="#">2. 출원인 국적별 분석</a></h1>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">2-1. 출원인 국적별 특허 수</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">2-2. 출원인 국적별 연도별 특허 수</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">2-3. 출원인 국적별 특허 활동도 지수 분석</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">2-4. 출원인 국적별 특허 이끌림 지수 분석</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">2-5. 출원인 국적별 특허 수준 분석</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">2-6. 출원인 국적별 평균 패밀리 크기</a></h2>
+					<h1 style="font-size:16px"><a href="#">3. 세계 경쟁자 분석</a></h1>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">3-1. 출원인별 특허 수</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">3-2. 출원인별 연도별 특허 수</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">3-3. 출원인 국적별 특허 활동도 지수 분석</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">3-4. 출원인 국적별 특허 이끌림 지수 분석</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">3-5. 출원인별 특허 수준 분석</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">3-6. 출원인별 평균 패밀리 크기</a></h2>
+					<h1 style="font-size:16px"><a href="#">4. 국내 경쟁자 분석</a></h1>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">4-1. 한국 특허 출원인별 특허 수</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">4-2. 한국 특허 출원인별 연도별 특허 수</a></h2>
+					<h2 style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">4-3. 한국 특허 출원인별 특허 수준 분석</a></h2>
+					<h1 style="font-size:16px"><a href="#">5. 세계 핵심 경쟁자 리스트</a></h1>
+					<h1 style="font-size:16px"><a href="#">&lt;부록&gt; 고 피인용 특허</a></h1>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="height:50px;"></div>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>                                                                                                                                                           
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	 if(doc.offsetHeight != 0){
+	 	pageheight = doc.offsetHeight;
+	 	parent.document.getElementById("autoHeight0").height = Number(pageheight+40)+"px";
+	 }
+}
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<h2 style="font-weight:bold; font-size:17px; color:#333;">검색 조건</h2>
+		<p style="margin:0;  text-align:left;">본 분석에는 미국 특허 및 PATSTAT 데이터베이스를 사용하였으며, 해당 기술 분야의 특허 검색을 위한 검색식은 아래와 같음.</p>
+		
+			<p style="margin:0;  text-align:left; font-weight:bold;">
+				an:("AfreecaTV Co., Ltd." OR "AHNLAB,INC." OR "Koreacenter Co.,Ltd." OR "NHN KCP Corp." OR "GalaxiaMoneytree Co.,Ltd." OR "KOREA INFORMATION CERTIFICATE AUTHORITY, INCORPORATED" OR "GOLFZON Co., Ltd." OR "KGINICIS CO.,LTD." OR "KGMobilians Co., Ltd." OR "INITECH Co., Ltd.") AND acn:KR AND text:("education" OR "female members" OR "envirionmental management promotion" OR "gas emissions" OR "human rights policy" OR "governance law" OR "dividend policy" OR "reuse" OR "recruit" OR "strategic social contribution" OR "social regulation" OR "raw material" OR "renewable energy" OR "environmental management" OR "human" OR "audit expertise" OR "industrial accident" OR "employees" OR "eco-certified" OR "supplier esg agreements" OR "material consumption" OR "recycled" OR "recycle" OR "reuse water" OR "esg agenda" OR "energy" OR "health" OR "waste" OR "CEO" OR "Board of Directors" OR "association" OR "member volunteer participation" OR "eco" OR "retain" OR "air pollutant" OR "air pollutant emissions" OR "pollutant" OR "female" OR "executive director" OR "social law" OR "environmental regulations" OR "protection" OR "privacy" OR "gender" OR "audit body" OR "esg support" OR "consumption" OR "member volunteer" OR "waste recycling" OR "full-time employees" OR "committess" OR "eco certified" OR "emissions" OR "partner esg management" OR "privacy infringement remedies" OR "disabled employment" OR "information" OR "waste discharge" OR "subsidiary material consumption" OR "water pollutant emissions" OR "disabled" OR "voluntary" OR "outside director" OR "training expenses" OR "greenhouse gas" OR "director expertise" OR "raw material consumption" OR "esg agreements" OR "voting system" OR "employee" OR "freedom" OR "outside directors" OR "social contribution" OR "BOD" OR "protection system" OR "greenhouse" OR "safety promotion" OR "remedies" OR "volunteer participation" OR "partner" OR "gender diversity" OR "renewable" OR "policy" OR "recycled raw materials" OR "female salary" OR "supplier esg" OR "esg management" OR "privacy infringement" OR "water" OR "shareholders" OR "governance" OR "water pollutant" OR "partner management" OR "audit" OR "health promotion" OR "safety" OR "environmental laws" OR "voluntary turnover" OR "water consumption" OR "greenhouse gas emissions" OR "BOD agenda" OR "subsidiary material" OR "volunteer" OR "chairman" OR "esg partners" OR "human rights risk" OR "new hires" OR "governance regulation" OR "information protection system" OR "social" OR "human rights" OR "information protection" OR "voting" OR "energy usage" OR "ethics" OR "esg" OR "accident" OR "recycled materials" OR "environmental" OR "director")</br>
+				검색 연도는 2006-2022으로 제한하였으며, 총 특허수는 50편임.
+			</p>
+		
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	 if(doc.offsetHeight != 0){
+	  pageheight = doc.offsetHeight;
+	  parent.document.getElementById("autoHeight1").height = Number(pageheight+40)+"px";
+	 }
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];
+		//연도별 특허 출원 그래프
+		M3_LineBarChart('LineBarChart1','특허수(전체)','특허수(기준국가)',itemList, "0000042759", "");
+	}
+});
+
+</script>
+</head>
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<!--2-1. 연도별 특허 수-->
+		<div class="doc_content">
+			<h2 style="padding:0px 0; font-weight:bold; font-size:17px; color:#333;">1. 연도별 특허 수</h2>
+				<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 1. 연도별 특허 수</p>
+				<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+					<tr>
+						<th width="25%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">연도</th>
+						<th width="25%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+						<th width="25%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">누적 특허 수</th>
+						<th width="25%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">Korea, Republic 특허 수</th>
+					</tr>
+
+					<tr>
+						<td style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0;">2006</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					</tr>
+	
+					<tr>
+						<td style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0;">2012</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					</tr>
+	
+					<tr>
+						<td style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0;">2013</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+					</tr>
+	
+					<tr>
+						<td style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0;">2014</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">7</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">13</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">7</td>
+					</tr>
+	
+					<tr>
+						<td style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0;">2015</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">5</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">18</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">5</td>
+					</tr>
+	
+					<tr>
+						<td style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0;">2016</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">8</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">26</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">8</td>
+					</tr>
+	
+					<tr>
+						<td style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0;">2017</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">30</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+					</tr>
+	
+					<tr>
+						<td style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0;">2018</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">5</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">35</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">5</td>
+					</tr>
+	
+					<tr>
+						<td style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0;">2019</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">37</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+					</tr>
+	
+					<tr>
+						<td style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0;">2020</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">7</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">44</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">7</td>
+					</tr>
+	
+					<tr>
+						<td style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0;">2021</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">48</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+					</tr>
+	
+					<tr>
+						<td style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0;">2022</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+						<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+					</tr>
+	
+			
+				</table>
+				<div style="height:20px;"></div>
+				
+				
+				<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+				<tr >
+					<td rowspan="26" style = "text-align: center">
+						<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042759/LineBarChart1.png'></img>							
+					</td>
+				</tr>
+				</table>
+				<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+				<tr >
+					<td colspan = "2" style = "font-weight:bold; text-align :center">
+						그림 1. 연도별 특허 출원 추이<br />(전체 특허 수는 막대 그래프, 한국의 특허 수는 꺾은선 그래프 참조)
+					</td>
+				</tr>
+				</table>
+							
+				
+																							
+				<div style="height:20px;"></div>
+			
+	<table>
+
+
+			<tr>
+				<td valign="top">○</td>
+				<td>
+					분석 대상 기간의 연평균 증가율은 특허 수 기준 6.5%, 
+					누적 특허 수 기준 42.71%인 것으로 나타남.
+				</td>
+			</tr>
+	</table>
+
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight2").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];
+		//연도별 특허 출원 그래프
+		M3_RotateBarChart('RotateBarChart1','국가','특허수',itemList, "0000042759", "");
+	}
+});
+
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<!--2-1. 연도별 특허 수-->
+		<div class="doc_content">
+			<h2 style="padding:0px 0; font-weight:bold; font-size:17px; color:#333;">2. 출원인 국적별 분석 (특허권 보유 국가 분석)</h2>
+			<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">2-1. 출원인 국적별 특허 수</h3>
+			<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 2. 출원인 국적별 특허 수</p>
+			<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+				<tr>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">순위</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인 국적</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">비중 (%)</th>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">Korea, Republic</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">100</td>
+				</tr>
+
+			</table>
+			<div style="height:20px;"></div>
+			
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042759/RotateBarChart1.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 2. 출원인 국적별 특허 수
+				</td>
+			</tr>
+			</table>
+			
+
+			<div style="height:20px;"></div>
+		<table>
+
+			<tr>
+				<td valign="top">○ </td>
+				<td> 
+					 특허의 출원인 국적을 분석한 결과 Korea, Republic이(가) 전체 50건의 특허 중
+					 100%(50건)를 점유하여 가장 많은 특허를 발표한 것으로 나타났음.
+				</td>
+			</tr>
+
+
+	
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					Korea, Republic은(는) 50편 (100%)의 특허를 발표하여 1위를 차지하였음.
+				</td>
+			</tr>
+	
+		
+
+		</table>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight3").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var itemList = []
+	var graphItemList = []
+	
+	var chartlen = 800 + (0 * 5);
+	
+	//
+	M3_LineChart('LineChart1', '국가','연도','특허 수',itemList, graphItemList, "0000042759", "");
+	
+	$("#LineChart1").height(chartlen);
+});	
+</script>
+</head>
+
+<body  onload="init();">
+<div id="doc_containerbox">
+	<!--2-2-2. 출원인 국적별 연도별 특허 수 -->
+	<div class="doc_content">
+		<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">2-2. 출원인 국적별 연도별 특허 수</h3>
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 3. 출원인 국적별 연도별 특허 수</p>
+		<table width="100%" border="1" bordercolor="#666666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+			<tr>
+				<th style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">연도</th>
+
+				<th width="5%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2006</th>
+
+				<th width="5%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2007</th>
+
+				<th width="5%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2008</th>
+
+				<th width="5%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2009</th>
+
+				<th width="5%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2010</th>
+
+				<th width="5%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2011</th>
+
+				<th width="5%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2012</th>
+
+				<th width="5%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2013</th>
+
+				<th width="5%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2014</th>
+
+				<th width="5%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2015</th>
+
+				<th width="5%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2016</th>
+
+				<th width="5%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2017</th>
+
+				<th width="5%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2018</th>
+
+				<th width="5%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2019</th>
+
+				<th width="5%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2020</th>
+
+				<th width="5%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2021</th>
+
+				<th width="5%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2022</th>
+
+				<th width="5%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">총합</th>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0; font-weight:bold">Korea, Republic</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">7</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">5</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">8</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">5</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">7</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+
+			</tr>
+
+		</table>
+		<div style="height:20px;"></div>
+		
+
+		<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042759/LineChart1.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 3. 출원인 국적별 연도별 특허 수
+				</td>
+			</tr>
+		</table>
+	
+
+			
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight15").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];
+		//연도별 특허 출원 그래프
+		M3_RotateBarChart('RotateBarChart5','국가','활동도 지수',itemList, "0000042759", "");
+	}
+});
+
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<!--2-1. 연도별 특허 수-->
+		<div class="doc_content">
+			<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">2-3. 출원인 국적별 활동도 지수(Activity Index) 분석</h3>
+			<table>
+				<tr>
+					<td valign="top">○</td>
+					<td>정의 : 특정 기술 분야에서 특정 국가의 특허 점유율을 전체 특허에서 해당 국가의 점유율에 비교하여 나타낸 지수</td>
+				</tr>
+			</table>
+			<p style="margin:0; padding:0px; text-align:center; font-weight:bold;">
+			
+				<img src='http://compas.kisti.re.kr/compas/images/docimg/m3_001.png'/>
+			
+			</p>
+			<table>
+				<tr>
+					<td valign="top">○</td>
+					<td>의미 : 특정 국가의 활동도 지수가 1.0이면 전체 기술 분야 특허에서 특정 기술 분야가 차지하는 비중과 특정 국가의 전체 특허에서 특정 국가의 해당 기술 분야가 차지하는 비중이 같다는 의미임.</td>
+				</tr>
+			</table>
+			<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 4. 출원인 국적별 활동도 지수</p>
+			<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+				<tr>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인 국적</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특정 기술 분야 총 특허 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특정 국가 전체 특허 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">전체 특허 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">활동도 지수</th>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">Korea, Republic</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">268739</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">4662393</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">17.349</td>
+				</tr>
+
+			</table>
+			<div style="height:20px;"></div>
+			
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042759/RotateBarChart5.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 4. 출원인 국적별 활동도 지수
+				</td>
+			</tr>
+			</table>
+			
+
+			<div style="height:20px;"></div>
+		<table>
+
+			<tr>
+				<td valign="top">○ </td>
+				<td> 
+					 출원인 국적별 활동도 지수 분석 결과, Korea, Republic이(가) 
+					 가장 높은 값(17.349)을 보여 해당 기술에서의 활동이 가장 활발한 것으로 나타남. 
+				</td>
+			</tr>
+	
+			<tr>
+				<td valign="top">○ </td>
+				<td> 
+					분야 평균 이상의 활동도 지수를 보이는 국가는 Korea, Republic(17.349),  이(가) 있음.
+				</td>
+			</tr>
+
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					Korea, Republic의 활동도 지수는 17.349을(를) 기록하였으며,
+					이는 해당 기술에서의 활동이 세계 평균 이상임을 의미함.
+				</td>
+			</tr>
+
+			
+
+		</table>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight16").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];
+		//연도별 특허 출원 그래프
+		M3_RotateBarChart('RotateBarChart6','국가','이끌림 지수',itemList, "0000042759", "");
+	}
+});
+
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<!--2-1. 연도별 특허 수-->
+		<div class="doc_content">
+			<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">2-4. 출원인 국적별 이끌림 지수(Attractivity Index) 분석</h3>
+			<table>
+				<tr>
+					<td valign="top">○</td>
+					<td>정의 : 특정 기술 분야에서 특정 국가의 특허 피인용 수 점유율을 전체 특허에서 해당 국가의 피인용 수 점유율에 비교하여 나타낸 지수</td>
+				</tr>
+			</table>
+			<p style="margin:0; padding:0px; text-align:center; font-weight:bold;">
+			
+				<img src='http://compas.kisti.re.kr/compas/images/docimg/m3_002.png'/>
+			
+			</p>
+			<table>
+				<tr>
+					<td valign="top">○</td>
+					<td>의미 : 특정 국가의 이끌림 지수가 1.0이면 전체 기술 분야 특허에서 특정 기술 분야가 차지하는 피인용 수 비중과 특정 국가의 전체 특허에서 특정 국가의 해당 기술 분야가 차지하는 피인용 수 비중이 같다는 의미임.</td>
+				</tr>
+			</table>
+		
+			<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 5. 출원인 국적별 이끌림 지수</p>
+			<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+				<tr>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인 국적</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 피인용 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특정 기술 분야 특허의 총 피인용 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특정 국가 특허 전체 피인용 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">전체 특허 피인용 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">이끌림 지수</th>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">Korea, Republic</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">75</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">75</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">1001860</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">30166374</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">30.11</td>
+				</tr>
+
+			</table>
+			<div style="height:20px;"></div>
+			
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042759/RotateBarChart6.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 5. 출원인 국적별 이끌림 지수
+				</td>
+			</tr>
+			</table>
+			
+
+			<div style="height:20px;"></div>
+		<table>
+
+			<tr>
+				<td valign="top">○ </td>
+				<td> 
+					 출원인 국적별 이끌림 지수 분석 결과, Korea, Republic이(가) 
+					 가장 높은 값(30.11)을 보여 해당 기술에서의 활동이 가장 활발한 것으로 나타남. 
+				</td>
+			</tr>
+	
+			<tr>
+				<td valign="top">○ </td>
+				<td> 
+					분야 평균 이상의 이끌림 지수를 보이는 국가는 Korea, Republic(30.11),  이(가) 있음.
+				</td>
+			</tr>
+
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					Korea, Republic의 이끌림 지수는 30.11을(를) 기록하였으며,
+					이는 해당 기술에서의 활동이 세계 평균 이상임을 의미함.
+				</td>
+			</tr>
+
+			
+
+		</table>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight4").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList1 = [];
+		var itemList = [];
+		var graphItemList = [];
+		var maxim = 0.0*1.1;
+		var maxim_x = 0.0*1.1;
+		
+		var chartlen = 800 + (0 * 5);
+		//연도별 특허 출원 그래프
+		M3_RotateBarChart('RotateBarChart2','출원인','수준지수',itemList1, "0000042759", "");
+		M3_PointChart('PointChart1', '국가','특허 수','수준지수',itemList, graphItemList, maxim, maxim_x, "0000042759", "");
+		$("#PointChart1").height(chartlen);
+	}
+});
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<!--2-2-4. 출원인 국적별 특허 수준 분석 -->
+	<div class="doc_content">
+		<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">2-5. 출원인 국적별 특허 수준 분석</h3>
+		<table>
+			<tr>
+				<td valign="top">○</td>
+				<td>정의 : 특정 기술 분야 전체 특허의 평균 피인용 수에 대한 특정 국가 발표 특허의 평균 피인용 수의 비로서 피인용 수에 기반을 둔 문헌의 질적 수준 평가 지표</td>
+			</tr>
+			<tr>
+				<td valign="top">○</td>
+				<td>의미 : 특정 국가의 수준 지수가 1.0인 경우 해당 국가가 발표한 특허의 평균 피인용 수가 해당 분야 전체 특허의 평균 피인용 수와 같음을 의미하며, 1.0을 초과하는 경우는 해당 분야 평균 피인용 수에 비해 높음을 의미함.</td>
+			</tr>
+		</table>
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 6. 출원인 국적별 특허 수준 지수</p>
+		<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">	
+			<tr>
+				<th width="40%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">국가</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 당 피인용 수</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">수준 지수</th>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Korea, Republic</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1.5</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+			</tr>
+
+		</table>
+		<div style="height:20px;"></div>
+	
+				
+		<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042759/RotateBarChart2.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 6. 출원인 국적별 특허 수준 지수
+				</td>
+			</tr>
+		</table>
+		
+
+		<div style="height:20px;"></div>
+		<table>
+
+			<tr>
+				<td valign="top">○ </td>
+				<td> 
+					 국가별 특허의 수준 지수 분석 결과 Korea, Republic이(가) 가장 높은 값(1)
+					 을 보여 특허의 피인용 관점에서 질적 수준이 가장 우수한 것으로 나타남.
+				</td>
+			</tr>
+			
+						
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					분야 평균 이상의 수준을 보이는 국가는 Korea, Republic(1)
+					이(가) 있음.			
+				</td>
+			</tr>
+			
+			
+
+
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					Korea, Republic의 수준 지수는 1를 기록하였으며, 이는 질적 수준이 세계 평균 이하임을 의미함.
+				</td>
+			</tr>
+	
+		</table>
+		
+		
+		<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042759/PointChart1.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 7. 출원인 국적별 특허 수 대비 수준 지수
+				</td>
+			</tr>
+		</table>
+		
+
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type"/>
+<title>무제 문서</title>
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight13").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];		
+		var graphItemList = [];
+		var maxim = 0.0*1.1;
+		var maxim_x = 0.0*1.1;
+		
+		var chartlen = 800 + (0 * 5);
+		//
+		M3_PointChart('PointChart2', '국가','특허 수','평균 패밀리 크기',itemList, graphItemList, maxim, maxim_x, "0000042759", "");
+		$("#PointChart2").height(chartlen);
+	}
+});
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">2-6. 출원인 국적별 평균 패밀리 크기</h3>
+		<table>
+			<tr>
+				<td valign="top">○</td>
+				<td>정의 : 동일한 내용의 발명이 복수의 국가에 출원된 경우 이들 특허를 패밀리(대응) 특허라고 하며, 패밀리 특허가 출원된 국가의 수를 패밀리 크기라 함. </td>
+			</tr>
+			<tr>
+				<td valign="top">○</td>
+				<td>의미 : 다수의 국가에서 보호 받을 가치가 있는 특허의 경우 패밀리 크기가 커지게 되며, 특허의 가치를 나타내는 지표로 사용될 수 있음.</td>
+			</tr>
+		</table>
+		
+		<div style="height:20px;"></div>		
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 7. 출원인 국적별 평균 패밀리 크기</p>
+		<table width="100%" border="1" bordercolor="#666666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">	
+			<tr>
+				<th width="40%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">국가</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">평균 패밀리 크기</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">분야 평균 대비<br/>평균 패밀리 크기</th>
+			</tr>
+		
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Korea, Republic</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">4.4</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>	
+			</tr>
+		
+		</table>
+		<div style="height:20px;"></div>
+
+
+
+		<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042759/PointChart2.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 8. 특허 수 대비 평균 패밀리 크기
+				</td>
+			</tr>
+		</table>
+		
+
+		<div style="height:20px;"></div>
+		<table>
+			<tr>
+				<td valign="top">○ </td>
+				<td> 
+					 특허의 평균 패밀리 크기 분석 결과Korea, Republic이(가) 가장 높은 값(4.4)
+					 을 보여 특허의 패밀리 크기 관점에서 질적 수준이 가장 우수한 것으로 나타남.
+				</td>
+			</tr>
+		
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					분야 평균 이상의 수준을 보이는 국가는 
+					Korea, Republic(1)
+					이(가) 있음.	
+				</td>
+			</tr>
+		
+		
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					한국의 분야평균 대비 평균 패밀리 크기는 1.0을(를) 기록하였으며, 이는 질적 수준이 세계 평균 이하임을 의미함.
+				</td>
+			</tr>
+			
+		</table>
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight5").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];
+		//연도별 특허 출원 그래프
+		M3_RotateBarChart('RotateBarChart3','출원인','특허 수',itemList, "0000042759", "");
+	}
+});
+
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<!--2-3-1. 출원인별 특허 수-->
+	<div class="doc_content">
+		<h2 style="padding:0px 0; font-weight:bold; font-size:17px; color:#333;">3. 세계 경쟁자 분석</h2>
+		<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">3-1. 출원인별 특허 수</h3>
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 8. 출원인별 특허 수</p>
+		<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">	
+			<tr>
+				<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">순위</th>
+				<th width="50%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">비중 (%)</th>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO LTD</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">24</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">48</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, INC.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">8</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">16</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab, Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">12</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">5</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB., Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">5</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">7</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co. Ltd</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">7</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Koreacenter Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">7</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab., Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">7</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">7</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+			</tr>
+
+		</table>
+		<div style="height:20px;"></div>
+
+
+		<table>
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					특허의 출원인을 분석한 결과 GOLFZON CO LTD이(가) 전체 50건의 특허 중 
+					48%(24건 )를 점유하여 가장 많은 특허를 발표한 것으로 나타났음.
+				</td>
+			</tr>
+
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					AHNLAB, INC.은(는) 16%(8건), 
+					Ahnlab, Inc.은(는) 12%(6건)을 점유하여 각각 2, 3위를 차지하였음.
+				</td>
+			</tr>
+			
+			
+		</table>
+		
+	
+
+		<div style="height:20px;"></div>
+		
+		
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+				<tr >
+					<td rowspan="26" style = "text-align: center">
+						<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042759/RotateBarChart3.png'></img>
+					</td>
+				</tr>
+				</table>
+				<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+				<tr >
+					<td colspan = "2" style = "font-weight:bold; text-align :center;">
+						그림 9. 출원인별 특허 수
+					</td>
+				</tr>
+			</table>
+			
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type"/>
+<title>무제 문서</title>
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight6").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var itemList = []
+	var graphItemList = []
+	
+	var chartlen = 800 + (0 * 5);
+	
+	//
+	M3_LineChart('LineChart2', '국가','연도','특허 수',itemList, graphItemList, "0000042759", "");
+	
+	$("#LineChart2").height(chartlen);
+});	
+</script>
+</head>
+
+<body  onload="init();">
+<div id="doc_containerbox">
+	<!--2-3-2. 출원인별 연도별 특허 수 -->
+	<div class="doc_content">
+		<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">3-2. 출원인별 연도별 특허 수</h3>
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold">표 9. 출원인별 연도별 특허 수 </p>
+		<table width="100%" border="1" bordercolor="666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+			<tr>
+				<th style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">연도</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2006</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2007</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2008</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2009</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2010</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2011</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2012</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2013</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2014</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2015</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2016</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2017</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2018</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2019</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2020</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2021</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2022</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">총합</th>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO LTD</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">24</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, INC.</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">8</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab, Inc.</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">5</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co., Ltd.</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB., Inc.</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON Co., Ltd.</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co. Ltd</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Koreacenter Co., Ltd.</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab., Inc.</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, Inc.</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO., Ltd.</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+			</tr>
+
+		</table>
+		<div style="height:20px;"></div>
+
+
+		<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042759/LineChart2.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 10. 출원인별 연도별 특허 수
+				</td>
+			</tr>
+		</table>
+	
+
+
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight17").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];
+		//연도별 특허 출원 그래프
+		M3_RotateBarChart('RotateBarChart7','국가','활동도 지수',itemList, "0000042759", "");
+	}
+});
+
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<!--2-1. 연도별 특허 수-->
+		<div class="doc_content">
+			<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">3-3. 출원인별 활동도 지수(Activity Index) 분석</h3>
+			<table>
+				<tr>
+					<td valign="top">○</td>
+					<td>정의 : 특정 기술 분야에서 특정 출원인의 특허 점유율을 전체 특허에서 해당 출원인의 점유율에 비교하여 나타낸 지수</td>
+				</tr>
+			</table>
+			<p style="margin:0; padding:0px; text-align:center; font-weight:bold;">
+			
+				<img src='http://compas.kisti.re.kr/compas/images/docimg/m3_003.png'/>
+			
+			</p>
+			<table>
+				<tr>
+					<td valign="top">○</td>
+					<td>의미 : 특정 출원인의 활동도 지수가 1.0이면 전체 특허에서 특정 기술 분야가 차지하는 비중과 특정 출원인의 전체 특허에서 특정 출원인의 해당 기술 분야가 차지하는 비중이 같다는 의미임.</td>
+				</tr>
+			</table>
+			<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 10. 출원인별 활동도 지수</p>
+			<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+				<tr>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특정 기술 분야 총 특허 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특정 출원인 전체 특허 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">전체 특허 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">활동도 지수</th>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab, Inc.</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">4662393</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">93247.86</td>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co. Ltd</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">4662393</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">93247.86</td>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">Koreacenter Co., Ltd.</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">4662393</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">93247.86</td>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, INC.</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">8</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">8</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">4662393</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">93247.86</td>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON Co., Ltd.</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">4662393</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">93247.86</td>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO., Ltd.</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">4662393</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">93247.86</td>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB., Inc.</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">4662393</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">93247.86</td>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, Inc.</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">4662393</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">93247.86</td>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab., Inc.</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">4662393</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">93247.86</td>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO LTD</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">24</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">26</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">4662393</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">86074.948</td>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co., Ltd.</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">50</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">4662393</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">69935.895</td>
+				</tr>
+
+			</table>
+			<div style="height:20px;"></div>
+			
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042759/RotateBarChart7.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 11. 출원인별 활동도 지수
+				</td>
+			</tr>
+			</table>
+			
+
+			<div style="height:20px;"></div>
+		<table>
+
+			<tr>
+				<td valign="top">○ </td>
+				<td> 
+					 출원인별 활동도 지수 분석 결과, Ahnlab, Inc.이(가) 
+					 가장 높은 값(93247.86)을 보여 해당 기술에서의 활동이 가장 활발한 것으로 나타남. 
+				</td>
+			</tr>
+	
+			<tr>
+				<td valign="top">○ </td>
+				<td> 
+					분야 평균 이상의 활동도 지수를 보이는 출원인은 Ahnlab, Inc.(93247.86), Golfzon Co. Ltd(93247.86), Koreacenter Co., Ltd.(93247.86), AHNLAB, INC.(93247.86), GOLFZON Co., Ltd.(93247.86), GOLFZON CO., Ltd.(93247.86), AHNLAB., Inc.(93247.86), AHNLAB, Inc.(93247.86), Ahnlab., Inc.(93247.86), GOLFZON CO LTD(86074.948), Golfzon Co., Ltd.(69935.895),  이(가) 있음.
+				</td>
+			</tr>
+
+			
+
+		</table>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" />
+<title>무제 문서</title>
+
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight18").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];
+		//연도별 특허 출원 그래프
+		M3_RotateBarChart('RotateBarChart8','국가','이끌림 지수',itemList, "0000042759", "");
+	}
+});
+
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<!--2-1. 연도별 특허 수-->
+		<div class="doc_content">
+			<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">3-4. 출원인별 이끌림 지수(Attractivity Index) 분석</h3>
+			<table>
+				<tr>
+					<td valign="top">○</td>
+					<td>정의 : 특정 기술 분야에서 특정 출원인의 특허 피인용 수 점유율을 전체 특허에서 해당 출원인의 피인용 수 점유율에 비교하여 나타낸 지수</td>
+				</tr>
+			</table>
+			<p style="margin:0; padding:0px; text-align:center; font-weight:bold;">
+			
+				<img src='http://compas.kisti.re.kr/compas/images/docimg/m3_004.png'/>
+			
+			</p>
+			<table>
+				<tr>
+					<td valign="top">○</td>
+					<td>의미 : 특정 출원인의 이끌림 지수가 1.0이면 전체 기술 분야 특허에서 특정 기술 분야가 차지하는 피인용 수 비중과 특정 출원인의 전체 특허에서 특정 출원인의 해당 기술 분야가 차지하는 피인용 수 비중이 같다는 의미임.</td>
+				</tr>
+			</table>
+			<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 11. 출원인별 이끌림 지수</p>
+			<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+				<tr>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 피인용 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특정 기술 분야 특허의 총 피인용 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특정 출원인 특허 전체 피인용 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">전체 특허 피인용 수</th>
+					<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">이끌림 지수</th>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab, Inc.</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">16</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">75</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">16</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">30166374</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">402218.32</td>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co. Ltd</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">9</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">75</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">9</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">30166374</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">402218.32</td>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">Koreacenter Co., Ltd.</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">75</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">30166374</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">402218.32</td>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, INC.</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">75</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">30166374</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">402218.32</td>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab., Inc.</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">75</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">30166374</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">402218.32</td>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB., Inc.</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">75</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">30166374</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">402218.32</td>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co., Ltd.</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">9</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">75</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">9</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">30166374</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">402218.32</td>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON Co., Ltd.</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">75</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">30166374</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">402218.32</td>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO LTD</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">30</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">75</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">47</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">30166374</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">256735.098</td>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO., Ltd.</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">75</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">30166374</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;"></td>
+				</tr>
+
+				<tr>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, Inc.</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">75</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;">30166374</td>
+					<td style="border:1px solid #666; text-align:center; padding:2px 0;"></td>
+				</tr>
+
+			</table>
+			<div style="height:20px;"></div>
+			
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042759/RotateBarChart8.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 12. 출원인별 이끌림 지수
+				</td>
+			</tr>
+			</table>
+			
+
+			<div style="height:20px;"></div>
+		<table>
+
+			<tr>
+				<td valign="top">○ </td>
+				<td> 
+					 출원인별 이끌림 지수 분석 결과, Ahnlab, Inc.이(가) 
+					 가장 높은 값(402218.32)을 보여 해당 기술에서의 활동이 가장 활발한 것으로 나타남. 
+				</td>
+			</tr>
+	
+			<tr>
+				<td valign="top">○ </td>
+				<td> 
+					분야 평균 이상의 이끌림 지수를 보이는 출원인은 Ahnlab, Inc.(402218.32), Golfzon Co. Ltd(402218.32), Koreacenter Co., Ltd.(402218.32), AHNLAB, INC.(402218.32), Ahnlab., Inc.(402218.32), AHNLAB., Inc.(402218.32), Golfzon Co., Ltd.(402218.32), GOLFZON Co., Ltd.(402218.32), GOLFZON CO LTD(256735.098),  이(가) 있음.
+				</td>
+			</tr>
+
+<!-- 			<tr> -->
+<!-- 				<td valign="top">○ </td> -->
+<!-- 				<td> -->
+
+
+<!-- 				</td> -->
+<!-- 			</tr> -->
+
+			
+
+		</table>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type" doc_content="text/html; charset=utf-8" />
+<title>무제 문서</title>
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight7").height = Number(pageheight+40)+"px";
+	}
+}
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList1 = [];
+		var itemList2 = [];
+		var graphItemList2 = [];
+		var maxim = 0.0*1.1;
+		var maxim_x = 0.0*1.1;
+		
+		var chartlen = 800 + (0 * 5);
+		//연도별 특허 출원 그래프
+		M3_RotateBarChart('RotateBarChart4','출원인','수준지수',itemList1, "0000042759", "");
+		M3_PointChart('PointChart3', '국가','특허 수','수준지수',itemList2, graphItemList2, maxim, maxim_x, "0000042759", "");
+		$("#PointChart3").height(chartlen);
+	}
+});
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<!--2-3-4. 출원인별 특허 수준 분석-->
+	<div class="doc_content">
+		<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">3-5. 출원인별 특허 수준 분석</h3>
+		<table>
+			<tr>
+				<td valign="top">○</td>
+				<td>정의 : 특정 기술 분야 전체 특허의 평균 피인용 수에 대한 특정 출원인 발표 특허의 평균 피인용 수의 비로서 피인용 수에 기반을 둔 문헌의 질적 수준 평가 지표</td>
+			</tr>
+			<tr>
+				<td valign="top">○</td>
+				<td>의미 : 특정 출원인의 수준 지수가 1.0인 경우 해당 출원인이 발표한 특허의 평균 피인용 수가 해당 분야 전체 특허의 평균 피인용 수와 같음을 의미하며, 1.0을 초과하는 경우는 해당 분야 평균 피인용 수에 비해 높음을 의미함.</td>
+			</tr>
+		</table>
+		<div style="height:20px;"></div>
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold">표 12. 출원인별 특허 수준 지수</p>
+		<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">	
+			<tr>
+				<th width="40%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 당 피인용 수</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">수준 지수</th>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co. Ltd</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">9</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab., Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab, Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2.667</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1.778</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Koreacenter Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1.333</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO LTD</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">24</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1.25</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.833</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.5</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.333</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, INC.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">8</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.5</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.333</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB., Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.5</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.333</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+			</tr>
+
+		</table>
+
+		<div class="blank20"></div>
+		
+		<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042759/RotateBarChart4.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 13. 출원인별 특허 수준 지수
+				</td>
+			</tr>
+		</table>
+		
+		
+		<div style="height:20px;"></div>
+		
+		<table>
+		
+			<tr>
+				<td valign="top">○ </td>
+				<td>해당 기술의 출원인별 수준 지수 분석 결과 Golfzon Co. Ltd이(가) 가장 높은 값(6)
+					을 보여 특허의 피인용 관점에서 질적 수준이 가장 우수한 것으로 나타남.
+				</td>
+			</tr>
+			
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					분야 평균 이상의 수준을 보이는 출원인으로는
+					Golfzon Co. Ltd(6), Ahnlab., Inc.(2), Golfzon Co., Ltd.(2), Ahnlab, Inc.(1.778), Koreacenter Co., Ltd.(1.333)
+					이(가) 있음.
+				</td>
+			</tr>
+		
+		</table>
+		<div class="blank20"></div>
+		
+		
+		<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042759/PointChart3.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 14. 출원인별 특허 수 대비 수준 지수
+				</td>
+			</tr>
+		</table>
+			
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type"/>
+<title>무제 문서</title>
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+		if(doc.offsetHeight != 0){
+			pageheight = doc.offsetHeight;
+			parent.document.getElementById("autoHeight14").height = Number(pageheight+40)+"px";
+		}
+	parent.loadKill();
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];		
+		var graphItemList = [];
+		var maxim = 0.0*1.1;
+		var maxim_x = 0.0*1.1;
+		var chartlen = 800 + (0 * 5);
+		//
+		M3_PointChart('PointChart4', '국가','특허 수','평균 패밀리 크기',itemList, graphItemList, maxim, maxim_x, "0000042759", "");
+		$("#PointChart4").height(chartlen);
+	}
+});
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">3-6. 출원인별 평균 패밀리 크기</h3>
+		<table>
+			<tr>
+				<td valign="top">○</td>
+				<td>정의 : 동일한 내용의 발명이 복수의 국가에 출원된 경우 이들 특허를 패밀리(대응) 특허라고 하며, 패밀리 특허가 출원된 국가의 수를 패밀리 크기라 함.</td>
+			</tr>
+			<tr>
+				<td valign="top">○</td>
+				<td>의미 : 다수의 국가에서 보호 받을 가치가 있는 특허의 경우 패밀리 크기가 커지게 되며, 특허의 가치를 나타내는 지표로 사용될 수 있음.</td>
+			</tr>
+		</table>
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold">표 13. 출원인별 평균 패밀리 크기</p>
+		<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">	
+			<tr>
+				<th width="40%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">평균 패밀리 크기</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">분야 평균 대비<br/>평균 패밀리 크기</th>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">6.667</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1.515</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO LTD</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">24</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">5.167</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1.174</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">5</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1.136</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Koreacenter Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.909</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB., Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3.5</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.795</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab, Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3.333</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.758</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, INC.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">8</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3.125</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.71</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co. Ltd</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.682</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab., Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.682</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.682</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.227</td>	
+			</tr>
+
+		</table>
+		<div class="blank20"></div>
+
+
+		<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td rowspan="26" style = "text-align: center">
+					<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042759/PointChart4.png'></img>
+				</td>
+			</tr>
+			</table>
+			<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+			<tr >
+				<td colspan = "2" style = "font-weight:bold; text-align :center;">
+					그림 15. 특허 수 대비 평균 패밀리 크기(출원인별)
+				</td>
+			</tr>
+		</table>
+				
+		<div style="height: 20px;"></div>
+		<table>
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					특허의 평균 패밀리 크기 분석 결과 Golfzon Co., Ltd.이(가) 가장 높은 값(6.667)을 보여 
+					특허의 패밀리 크기 관점에서 질적 수준이 가장 우수한 것으로 나타남.				
+				</td>
+			</tr>
+			
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					분야 평균 이상의 수준을 보이는 출원인으로는 
+					Golfzon Co., Ltd.(1.515), GOLFZON CO LTD(1.174), GOLFZON Co., Ltd.(1.136)
+					이(가) 있음.			
+				</td>
+			</tr>
+			
+		</table>
+
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type"/>
+<title>무제 문서</title>
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+
+
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight8").height = Number(pageheight+40)+"px";
+	}
+}
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<h2 style="padding:0px 0; font-weight:bold; font-size:17px; color:#333;">4. 국내 경쟁자 분석</h2>
+		<p>○ 의미 :  'Korea, Republic 특허'는 출원인의 국적이 Korea, Republic인 특허를 의미함.</p>
+		<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">4-1. Korea, Republic 특허 출원인별 특허 수</h3>
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 14. Korea, Republic 특허 출원인별 특허 수 </p>
+		<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+			<tr>
+				<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">번호</th>
+				<th width="70%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인</th>	
+				<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+				<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">비중(%)</th>
+			</tr>
+
+			<tr>
+		
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO LTD</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">24</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">48</td>
+		
+			</tr>
+
+			<tr>
+		
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, INC.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">8</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">16</td>
+		
+			</tr>
+
+			<tr>
+		
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab, Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">12</td>
+		
+			</tr>
+
+			<tr>
+		
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+		
+			</tr>
+
+			<tr>
+		
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">5</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB., Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+		
+			</tr>
+
+			<tr>
+		
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">5</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+		
+			</tr>
+
+			<tr>
+		
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">7</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co. Ltd</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+		
+			</tr>
+
+			<tr>
+		
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">7</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Koreacenter Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+		
+			</tr>
+
+			<tr>
+		
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">7</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab., Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+		
+			</tr>
+
+			<tr>
+		
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">7</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+		
+			</tr>
+
+			<tr>
+		
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">7</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+		
+			</tr>
+
+			
+		</table>
+		<div style="height:20px;"></div>
+
+<!-- ○ 	한국 특허의 출원인을 분석한 결과 Samsung Electronics Co., Ltd.이(가) 전체 1,601건의 특허 중 0.87%(14건)를 점유하여 가장 많은 특허를 발표한 것으로 나타났음. -->
+<!-- ○ 	Electronics and Telecommunications Research Institute은(는) 0.31%(5건), Goldstar Co., Ltd.은(는) 0.19%(3건)을 점유하여 각각 2, 3위를 차지하였음. -->
+		<table>
+		
+			<tr>
+				<td valign="top">○</td>
+				<td>Korea, Republic 특허의 출원인을 분석한 결과 GOLFZON CO LTD이(가) 전체 50건의 특허 중 
+				48%(24건)를 점유하여 가장 많은 특허를 발표한 것으로 나타났음.</td>
+			</tr>
+			
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					AHNLAB, INC.은(는) 16%(8건), 
+					Ahnlab, Inc.은(는) 12%(6건)을 점유하여 각각 2, 3위를 차지하였음.
+				</td>
+			</tr>
+						
+				
+		</table>
+
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type"/>
+<title>무제 문서</title>
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight9").height = Number(pageheight+40)+"px";
+	}
+}
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">4-2. Korea, Republic 특허 출원인별 연도별 특허 수</h3>
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold">표 15. Korea, Republic 특허 출원인별 연도별 특허 수</p>
+		<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">	
+			<tr>
+				<th style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">연도</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2006</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2007</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2008</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2009</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2010</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2011</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2012</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2013</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2014</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2015</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2016</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2017</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2018</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2019</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2020</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2021</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">2022</th>
+
+				<th width="4.878048780487805%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">총합</th>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO LTD</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">24</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, INC.</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">8</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab, Inc.</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">5</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co., Ltd.</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB., Inc.</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON Co., Ltd.</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co. Ltd</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Koreacenter Co., Ltd.</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab., Inc.</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, Inc.</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO., Ltd.</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+
+			</tr>
+
+		</table>
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type"/>
+<title>무제 문서</title>
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight10").height = Number(pageheight+40)+"px";
+	}
+}
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<h3 style="padding:0px 0; font-weight:bold; font-size:14px; color:#333;">4-3. Korea, Republic 특허 출원인별 특허 수준 분석</h3>
+		<table>
+			<tr>
+				<td valign="top">○</td>
+				<td>정의 : 특정 기술 분야 전체 특허의 평균 피인용 수에 대한 특정 출원인 발표 특허의 평균 피인용 수의 비로서 피인용 수에 기반을 둔 문헌의 질적 수준 평가 지표</td>
+			</tr>
+			<tr>
+				<td valign="top">○</td>
+				<td>의미 : 특정 출원인의 수준 지수가 1.0인 경우 해당 출원인이 발표한 특허의 평균 피인용 수가 해당 분야 전체 특허의 평균 피인용 수와 같음을 의미하며, 1.0을 초과하는 경우는 해당 분야 평균 피인용 수에 비해 높음을 의미함.</td>
+			</tr>
+		</table>
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold">표 16. 출원인별 특허 수준 지수</p>
+		<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">		
+			<tr>
+				<th width="40%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 당 피인용 수</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">수준 지수</th>
+			</tr>
+	
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co. Ltd</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">9</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>	
+			</tr>
+	
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab., Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>	
+			</tr>
+	
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>	
+			</tr>
+	
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab, Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2.667</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1.778</td>	
+			</tr>
+	
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Koreacenter Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1.333</td>	
+			</tr>
+	
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO LTD</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">24</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1.25</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.833</td>	
+			</tr>
+	
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.5</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.333</td>	
+			</tr>
+	
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, INC.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">8</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.5</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.333</td>	
+			</tr>
+	
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB., Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.5</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.333</td>	
+			</tr>
+	
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>	
+			</tr>
+	
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>	
+			</tr>
+
+		</table>
+		<div class="blank20"></div>
+
+		<table>
+		
+			<tr>
+				<td valign="top">○</td>
+				<td>
+					해당 기술의 Korea, Republic 출원인별 수준 지수 분석 결과Golfzon Co. Ltd이(가) 가장 높은 값(6)
+					을 보여 특허의 피인용 관점에서 질적 수준이 가장 우수한 것으로 나타남.
+				</td>
+			</tr>
+			
+			<tr>
+				<td valign="top">○ </td>
+				<td>
+					분야 평균 이상의 수준을 보이는 Korea, Republic 출원인으로는
+					Golfzon Co. Ltd(6), Ahnlab., Inc.(2), Golfzon Co., Ltd.(2), Ahnlab, Inc.(1.778), Koreacenter Co., Ltd.(1.333)
+					가 있음.
+				</td>		
+			</tr>
+			
+		</table>
+
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type"/>
+<title>무제 문서</title>
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight11").height = Number(pageheight+40)+"px";
+	}
+}
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<h2 style="padding:0px 0; font-weight:bold; font-size:17px; color:#333;">5. 세계 핵심 경쟁자 리스트</h2>
+		<table>
+			<tr>
+				<td valign="top">○</td>
+				<td>핵심 경쟁자 리스트는 특허 수(P) 기준으로 상위 30위까지 제시하며, 부가적으로 핵심 경쟁자의 수준 지수(Q), 분야 평균 대비 평균 패밀리 크기 값을 함께 제공함.</td>
+			</tr>
+		</table>
+		<div style="height:20px;"></div>			
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 17. 핵심 경쟁자 리스트</p>
+		<table width="100%" border="1" bordercolor="#666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">		
+			<tr>
+				<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">순위</th>
+				<th width="40%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">핵심 경쟁자(출원인)</th>
+				<th width="15%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허 수(P)</th>
+				<th width="15%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">수준 지수(Q)</th>
+				<th width="20%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">분야 평균 대비<br/>평균 패밀리 크기</th>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO LTD</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">24</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.833</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1.174</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, INC.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">8</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.333</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.71</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab, Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1.778</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.758</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1.515</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">5</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.333</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1.136</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB., Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.333</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.795</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">7</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.682</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">8</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.227</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">9</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab., Inc.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.682</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">10</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Koreacenter Co., Ltd.</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1.333</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.909</td>	
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">11</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co. Ltd</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">0.682</td>	
+			</tr>
+
+		</table>
+	</div>
+</div>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="doc_content-Type"/>
+<title>무제 문서</title>
+
+<style>
+body { margin:0px; padding:0px; background:#FFF; font-family:Malgun Gothic, 맑은 고딕; font-size:12px; color:#000; line-height:150%;}
+h1 a, h2 a { color:#000; text-decoration:none;}
+h1 a:hover, h2 a:hover { color:#666; text-decoration:underline;}
+</style>
+<script type="text/javascript">
+function init(){
+	var doc = document.getElementById("doc_containerbox");
+	if(doc.offsetHeight != 0){
+		pageheight = doc.offsetHeight;
+		parent.document.getElementById("autoHeight12").height = Number(pageheight+40)+"px";
+	}
+}
+
+$(window).load(function(){
+	var type = '1';
+	if(type == ""){
+		var itemList = [];
+		//연도별 특허 출원 그래프
+		M3_goChart('goChart1','피 인용 수','특허 수',itemList, "0000042759", "");
+	}
+});
+</script>
+</head>
+
+<body onload="init();">
+<div id="doc_containerbox">
+	<div class="doc_content">
+		<h2 style="padding:0px 0; font-weight:bold; font-size:17px; color:#333;">&lt;부록&gt; 고 피인용 특허</h2>
+
+<div class="blank20"></div>
+
+
+				<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+					<tr >
+						<td rowspan="26" style = "text-align: center">
+							<img width="600" height="400" style = "width:600px; heigth: 400px; text-align: center" src='http://compas.kisti.re.kr/compas/repository/M3/0000042759/goChart1.png'></img>
+						</td>
+					</tr>
+					</table>
+					<table width="300"  cellspacing="0" cellpadding="0" style="border:1px solid #fff; border-collapse:collapse;">
+					<tr >
+						<td colspan = "2" style = "font-weight:bold; text-align :center;">
+							그림 16. 피인용 수에 따른 특허 수의 분포
+						</td>
+					</tr>
+				</table>
+				
+
+	<div style="height:20px;"></div>
+	
+	<table>
+		<tr>
+			<td valign="top">○ </td>
+			<td>
+				ESG/Software 기술에 속하는 특허 50편 중 
+				(2006-2022년 출판된 특허), 적어도 1회 이상 인용된 특허 수는 
+				21편(42%)임.
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">○ </td>
+			<td>
+				ESG/Software 기술에 속하는 특허 중 피인용수가 높은 특허 리스트를 표 18 에 나타내었음.
+			</td>
+		</tr>
+	</table>
+	
+
+		<div style="height:20px;"></div>
+		<p style="margin:0; padding:0; text-align:center; font-weight:bold;">표 18. 고 피인용 특허 목록</p>
+		<table width="100%" border="1" bordercolor="#666666" cellspacing="0" cellpadding="0" style="border:1px solid #666; border-collapse:collapse;">
+			<colgroup>
+				<col width="10%" />
+				<col />
+				<col width="15%" />
+				<col width="15%" />
+				<col width="15%" />
+			</colgroup>			
+			<tr>
+				<th width="10%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">번호</th>
+				<th width="25%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">특허제목(미국특허번호)</th>
+				<th width="25%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">출원인</th>
+				<th width="25%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">패밀리 특허번호</th>
+				<th width="15%" style="border:1px solid #666; text-align:center; font-weight:bold; padding:2px 0; background:#F0F0F0;">피인용 수</th>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">1</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Apparatus and method for detecting malicious files<br/>(<a class="pnlink" href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=8763128.PN.&OS=PN/8763128&RS=PN/8763128" target="_blank" rel = "noopener noreferrer">08763128</a>)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab, Inc.(KR, Gyeonggi-Do)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">KR 101212553 B1 20121214; JP 2013239149 A  20131128; JP 5265061 B1 20130814; US 8763128 B2 20140624; US 2013305366 A1 20131114; WO 2013168951 A1 20131114</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">13</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Virtual golf simulation apparatus for providing user-customized practice environment, server connected with the same through network, and user-customized practice environment provision method using virtual golf simulation<br/>(<a class="pnlink" href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=9616328.PN.&OS=PN/9616328&RS=PN/9616328" target="_blank" rel = "noopener noreferrer">09616328</a>)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO LTD(KR, Daejeon)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">WO 2012177077 A3 20130411; WO 2012177077 A2 20121227; TW 201302275 A  20130116; TW I458526 B  20141101; US 9616328 B2 20170411; US 2014120994 A1 20140501; CN 103797506 B  20180410; CN 103797506 A  20140514; JP 5895253 B2 20160330; JP 2014519947 A  20140821</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">10</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Slope controllable foot plate for golf swing practice apparatus<br/>(<a class="pnlink" href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=7131911.PN.&OS=PN/7131911&RS=PN/7131911" target="_blank" rel = "noopener noreferrer">07131911</a>)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co. Ltd(KR, Daejon)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">WO 2004087267 A1 20041014; KR 20030043824 A  20030602; KR 100489961 B1 20050517; US 2005153787 A1 20050714; US 7131911 B2 20061107</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">9</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">4</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golf simulation apparatus and method for the same<br/>(<a class="pnlink" href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=8512162.PN.&OS=PN/8512162&RS=PN/8512162" target="_blank" rel = "noopener noreferrer">08512162</a>)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Golfzon Co., Ltd.(KR, Daejeon)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">TW I424865 B  20140201; TW 201102134 A  20110116; WO 2011002225 A2 20110106; WO 2011002225 A3 20110428; US 8512162 B2 20130820; US 2012083351 A1 20120405; JP 5476645 B2 20140423; JP 2012531941 A  20121213; CN 102470267 B  20140813; CN 102470267 A  20120523; CA 2764791 C  20140513; CA 2764791 A1 20110106</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">8</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">5</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Virtual golf simulation apparatus and method and sensing device and method used for the same<br/>(<a class="pnlink" href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=9333412.PN.&OS=PN/9333412&RS=PN/9333412" target="_blank" rel = "noopener noreferrer">09333412</a>)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO LTD(KR, Daejeon)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">WO 2012128566 A2 20120927; WO 2012128566 A3 20121122; TW I445566 B  20140721; TW 201244787 A  20121116; AU 2012231923 B2 20160428; AU 2012231923 A1 20131003; CA 2830487 C  20161101; CA 2830487 A1 20120927; US 9333412 B2 20160510; US 2014004968 A1 20140102; CN 103476467 B  20151014; CN 103476467 A  20131225; JP 5811263 B2 20151111; JP 2014511724 A  20140519; KR 101048091 B1 20110708</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">7</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">6</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Virtual golf simulation apparatus and method<br/>(<a class="pnlink" href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=9242158.PN.&OS=PN/9242158&RS=PN/9242158" target="_blank" rel = "noopener noreferrer">09242158</a>)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO LTD(KR, Daejeon)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">KR 101059325 B1 20110824; US 9242158 B2 20160126; US 2013316839 A1 20131128; JP 5799442 B2 20151028; JP 2014504939 A  20140227; CA 2826930 C  20161101; CA 2826930 A1 20120816; AU 2012214978 B2 20160114; AU 2012214978 A1 20130829; CN 103354761 B  20150218; CN 103354761 A  20131016; TW I441669 B  20140621; TW 201244789 A  20121116; EP 2673058 A4 20160309; EP 2673058 A2 20131218; EP 2673058 B1 20200401; WO 2012108699 A3 20121026; WO 2012108699 A2 20120816</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">7</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">7</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Apparatus and method for preemptively protecting against malicious code by selective virtualization<br/>(<a class="pnlink" href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=8984629.PN.&OS=PN/8984629&RS=PN/8984629" target="_blank" rel = "noopener noreferrer">08984629</a>)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab., Inc.(KR, Seoul)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">US 8984629 B2 20150317; US 2011296526 A1 20111201; WO 2010090435 A3 20101014; WO 2010090435 A2 20100812; KR 100985074 B1 20101004; KR 20100089968 A  20100813</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">3</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">8</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Virtual golf simulation apparatus and sensing device and method used for the same<br/>(<a class="pnlink" href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=9333409.PN.&OS=PN/9333409&RS=PN/9333409" target="_blank" rel = "noopener noreferrer">09333409</a>)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">GOLFZON CO LTD(KR, Daejeon)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">WO 2012128574 A3 20121122; WO 2012128574 A2 20120927; TW I445564 B  20140721; TW 201244776 A  20121116; AU 2012231931 B2 20160428; AU 2012231931 A1 20131003; CA 2830499 C  20161101; CA 2830499 A1 20120927; US 9333409 B2 20160510; US 2014004969 A1 20140102; CN 103442773 A  20131211; CN 103442773 B  20150819; JP 5858261 B2 20160210; JP 2014508625 A  20140410; KR 101048090 B1 20110708</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">9</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">System and method of transmitting/receiving security data<br/>(<a class="pnlink" href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=8549283.PN.&OS=PN/8549283&RS=PN/8549283" target="_blank" rel = "noopener noreferrer">08549283</a>)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Koreacenter Co., Ltd.(KR, Seoul)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">US 8549283 B2 20131001; US 2010161962 A1 20100624; CN 101542469 A  20090923; CN 101542469 B  20110810; KR 100867130 B1 20081106; KR 20080078555 A  20080827; JP 2009525014 A  20090702; JP 4941548 B2 20120530</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">10</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Apparatus and method for diagnosing malicious applications<br/>(<a class="pnlink" href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=9525706.PN.&OS=PN/9525706&RS=PN/9525706" target="_blank" rel = "noopener noreferrer">09525706</a>)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">AHNLAB, INC.(KR, )</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">KR 101246623 B1 20130325; WO 2014035043 A1 20140306; US 9525706 B2 20161220; US 2015229673 A1 20150813; JP 5992622 B2 20160914; JP 2015526824 A  20150910</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+			</tr>
+
+			<tr>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">11</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Internet site security system and method thereto<br/>(<a class="pnlink" href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=8549631.PN.&OS=PN/8549631&RS=PN/8549631" target="_blank" rel = "noopener noreferrer">08549631</a>)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">Ahnlab, Inc.(KR, Seoul)</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">US 8549631 B2 20131001; US 2011126285 A1 20110526; WO 2010093071 A1 20100819</td>
+				<td style="border:1px solid #666; text-align:center; padding:2px 0;">2</td>
+			</tr>
+
+		</table>
+	</div>
+</div>
+</body>
+</html>
+
+
+</body>
+</html>
