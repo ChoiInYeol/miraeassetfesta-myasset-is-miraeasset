@@ -16,3 +16,4 @@ BeautifulSoup4
 selenium
 natsort
 seaborn
+pdf2image
