@@ -1,4 +1,4 @@
-code,name,market,E_GRADE,name_en,industry,industry_en,number of patents,activity index,attractiviry index,level index,Y_Change,Y_TA
+code,name,market,E_GRADE,name_en,industry,industry_en,number_of_patents,activity_index,attractivity_index,level_index,Y_Change,Y_TA
 000660,SK하이닉스,KOSPI,4,SK hynix,전기전자,Electrical_Electronic_Equipment,0.8275862068965518,0.00021229458676526173,0.0011770590422811634,4.249137296192189e-06,-24.8,426369277489.0689
 035420,NAVER,KOSPI,2,NAVER,서비스업,Services,0.008045977011494254,0.0059728018588922245,0.0226227523197814,1.9783121107271603e-06,-40.09720534629405,224665286374.49396
 005380,현대차,KOSPI,3,HyundaiMotor,운수장비,Transport_Equipment,0.019540229885057474,0.0002885968883029465,0.0007272930990996323,3.2176438221165486e-06,-26.722338204592894,145027293931.1741

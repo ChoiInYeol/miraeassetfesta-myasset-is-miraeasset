@@ -1,4 +1,4 @@
-code,name,market,E_GRADE,S_GRADE,G_GRADE,ESG_GRADE,name_en,industry,industry_en,number of patents,activity index,attractiviry index,level index,Y_Change,Y_TA
+code,name,market,E_GRADE,S_GRADE,G_GRADE,ESG_GRADE,name_en,industry,industry_en,number_of_patents,activity_index,attractivity_index,level_index,Y_Change,Y_TA
 005930,삼성전자,KOSPI,,,,,SamsungElectronics,전기전자,Electrical_Electronic_Equipment,1.0,1.1627268132639288e-06,3.1780789087743945e-07,0.03966666666666666,-28.39506172839506,1138314925970.85
 207940,삼성바이오로직스,KOSPI,,,,,SAMSUNG BIOLOGICS,의약품,Medical_Supplies,0.0,0.0,0.0,0.0,-4.197947850673186,66329977940.19433
 051910,LG화학,KOSPI,,,,,"LGCHEM,LTD",화학,Chemicals,0.0,0.0,0.0,0.0,-36.8295589988081,207016269259.1093
